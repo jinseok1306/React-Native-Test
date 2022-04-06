@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigation from '../src/navigation';
+import Navigation from './components';
 import { NavigationService } from '../src/common';
 
 const Router = () => {
