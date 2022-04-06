@@ -42,29 +42,30 @@ const data = [
     price: '$500'
   }
 ]
-export default class MapList extends Component {
-  render() {
-    return (
-      <SafeAreaView style={styles.container}>
-        <View style={styles.header_css}>
-          <Text style={{fontSize:25}}>데이터 리스트 예제</Text>
-        </View>
-        <View>
-          {
-            data.map((item, index) => (
-              <View 
-                style={[
-                  styles.item,
-                  (index === 0) && { borderTopWidth: 0 }, // CSS: first-child
-                  (index % 2 === 1) && { backgroundColor: '#eee' } // CSS: nth-child(even)
-              ]}>
-                <Text>{item.name}</Text>
-                <Text>{item.price}</Text>
-              </View>
-            ))
-          }
-        </View>
-      </SafeAreaView>
-    );
-  }
+
+const MapList = () => {
+  return (
+    <SafeAreaView style={styles.container}>
+      <View style={styles.header_css}>
+        <Text style={{fontSize:25}}>데이터 리스트 예제</Text>
+      </View>
+      <View>
+        {
+          data.map((item, index) => (
+            <View 
+              style={[
+                styles.item,
+                (index === 0) && { borderTopWidth: 0 }, // CSS: first-child
+                (index % 2 === 1) && { backgroundColor: '#eee' } // CSS: nth-child(even)
+            ]}>
+              <Text>{item.name}</Text>
+              <Text>{item.price}</Text>
+            </View>
+          ))
+        }
+      </View>
+    </SafeAreaView>
+  );
 }
+
+export default MapList;  

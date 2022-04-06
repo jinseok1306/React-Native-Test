@@ -1,32 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, StatusBar } from 'react-native';
-import {NavigationService} from '../../src/common';
 
-class HomeScreen extends Component {
-    constructor(props: any) {
-        super(props);
-    }
-    render() {
-        return (
-            <View style={styles.container}>
-                <StatusBar barStyle="dark-content" />
-                <View>
-                    <Text style={{fontSize:25}}>Home Screen</Text>
-                </View>
-                <TouchableOpacity
-                        onPress={()=> NavigationService.back()}
-                        style={{
-                            justifyContent: 'flex-end',
-                            backgroundColor: 'rgb(87,174,198)',
-                            padding: 20,
-                            marginTop: 20,
-                            borderRadius: 30
-                        }}>
-                        <Text style={{fontSize: 20, textAlign: 'center', color: 'white'}}>뒤로</Text>
-                    </TouchableOpacity>
+const HomeScreen = () => {
+    return (
+        <View style={styles.container}>
+            <StatusBar barStyle="dark-content" />
+            <View style={{alignItems: 'center'}}>
+                <Text style={{fontSize:25}}>Home Screen</Text>
             </View>
-        );
-    }
+            <View style={{alignItems: 'center'}}>
+                <Text>여기는 홈 화면이에요</Text>
+            </View>
+        </View>
+    );
 }
 
 const styles = StyleSheet.create({

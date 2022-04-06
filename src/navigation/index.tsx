@@ -4,6 +4,7 @@ import LoginScreen from './LoginScreen';
 import HomeScreen from './HomeScreen';
 import Menu from './Menu';
 import MapList from './MapList';
+import SplashScreen from './SplashScreen';
 
 const AuthStack = createStackNavigator(
     {
@@ -40,7 +41,18 @@ const AuthStack = createStackNavigator(
                 navigationOptions: ({ navigation }) => ({
                     title: 'MapList 예제',
         }),
-        },
+        },     
+        SplashScreen: {screen: SplashScreen,
+            navigationOptions: ({ navigation }) => ({
+                title: 'SplashScreen 예제',
+                headerTransparent: true,
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+                //headerShown: false,  // 헤더 삭제 코드    
+        }),
+        },      
     },
     {
         initialRouteName: 'Menu'
