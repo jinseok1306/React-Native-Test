@@ -5,6 +5,7 @@ import HomeScreen from './HomeScreen';
 import Menu from './Menu';
 import MapList from './MapList';
 import SplashScreen from './SplashScreen';
+import ReduxScreen from './ReduxScreen';
 
 const AuthStack = createStackNavigator(
     {
@@ -35,12 +36,17 @@ const AuthStack = createStackNavigator(
         HomeScreen: {screen: HomeScreen,
                 navigationOptions: ({ navigation }) => ({
                     title: 'Home',
-        }),
+            }),
+        },
+        ReduxScreen: {screen: ReduxScreen,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Redux 테스트 예제',
+            }),
         },
         MapList: {screen: MapList,
                 navigationOptions: ({ navigation }) => ({
                     title: 'MapList 예제',
-        }),
+            }),
         },     
         SplashScreen: {screen: SplashScreen,
             navigationOptions: ({ navigation }) => ({
@@ -51,7 +57,7 @@ const AuthStack = createStackNavigator(
                     fontWeight: 'bold',
                 },
                 //headerShown: false,  // 헤더 삭제 코드    
-        }),
+            }),
         },      
     },
     {
