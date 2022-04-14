@@ -85,6 +85,11 @@ const AuthStack = createStackNavigator(
                 title: 'Badge',
             }),
         }, 
+        AirbnbRatingComponent: {screen: component.AirbnbRatingComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'AirbnbRating',
+            }),
+        }, 
     },
     {
         initialRouteName: 'Menu'
