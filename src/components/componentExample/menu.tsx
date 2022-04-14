@@ -7,8 +7,8 @@ const CoreMenu = () => {
         <View style={styles.container}>
             <StatusBar barStyle="dark-content" />                
             <TouchableOpacity
-                    onPress={()=> NavigationService.navigate('BottomSheet', {
-                        screen: 'BottomSheet',
+                    onPress={()=> NavigationService.navigate('BottomSheetComponent', {
+                        screen: 'BottomSheetComponent',
                         info: 'information',                            
                     })}
                     style={{

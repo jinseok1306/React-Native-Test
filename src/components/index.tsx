@@ -6,7 +6,7 @@ import Menu from './Menu';
 import MapList from './MapList';
 import SplashScreen from './SplashScreen';
 import ReduxScreen from './ReduxScreen';
-import { CoreMenu, BottomSheet } from './componentExample';
+import { CoreMenu, BottomSheetComponent } from './componentExample';
 
 const AuthStack = createStackNavigator(
     {
@@ -65,7 +65,7 @@ const AuthStack = createStackNavigator(
                 title: '컴포넌트 예제',
             }),
         }, 
-        BottomSheet: {screen: BottomSheet,
+        BottomSheetComponent: {screen: BottomSheetComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'BottomSheet',
             }),
