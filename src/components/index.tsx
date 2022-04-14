@@ -95,6 +95,11 @@ const AuthStack = createStackNavigator(
                 title: 'Avatar',
             }),
         }, 
+        CardComponent: {screen: component.CardComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Card',
+            }),
+        }, 
     },
     {
         initialRouteName: 'Menu'

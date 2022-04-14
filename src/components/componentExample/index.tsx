@@ -5,6 +5,7 @@ import ButtonGroupComponent from './ButtonGroupComponent';
 import BadgeComponent from './BadgeComponent';
 import AirbnbRatingComponent from './AirbnbRatingComponent';
 import AvatarComponent from './AvatarComponent';
+import CardComponent from './CardComponent';
 
 export {
     CoreMenu, 
@@ -13,5 +14,6 @@ export {
     ButtonGroupComponent,
     BadgeComponent,
     AirbnbRatingComponent,
-    AvatarComponent
+    AvatarComponent,
+    CardComponent
 };
