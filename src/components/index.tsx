@@ -6,7 +6,7 @@ import Menu from './Menu';
 import MapList from './MapList';
 import SplashScreen from './SplashScreen';
 import ReduxScreen from './ReduxScreen';
-import { CoreMenu, BottomSheetComponent, ButtonComponent } from './componentExample';
+import { CoreMenu, BottomSheetComponent, ButtonComponent, ButtonGroupComponent } from './componentExample';
 
 const AuthStack = createStackNavigator(
     {
@@ -73,6 +73,11 @@ const AuthStack = createStackNavigator(
         ButtonComponent: {screen: ButtonComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'Button',
+            }),
+        }, 
+        ButtonGroupComponent: {screen: ButtonGroupComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'ButtonGroup',
             }),
         }, 
     },

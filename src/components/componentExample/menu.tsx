@@ -36,6 +36,21 @@ const CoreMenu = () => {
                     }}>
                     <Text style={{fontSize: 20, textAlign: 'center', color: 'white'}}>Button</Text>
             </TouchableOpacity>
+            <TouchableOpacity
+                    onPress={()=> NavigationService.navigate('ButtonGroupComponent', {
+                        screen: 'ButtonGroupComponent',
+                        info: 'information',                            
+                    })}
+                    style={{
+                        justifyContent: 'flex-end',
+                        backgroundColor: 'rgb(10,204,198)',
+                        padding: 10,
+                        marginTop: 10,
+                        borderRadius: 10,
+                        width:250,
+                    }}>
+                    <Text style={{fontSize: 20, textAlign: 'center', color: 'white'}}>ButtonGroup</Text>
+            </TouchableOpacity>
         </View>
     );
 }
