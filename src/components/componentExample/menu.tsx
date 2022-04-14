@@ -5,7 +5,22 @@ import { NavigationService } from '../../common';
 const CoreMenu = () => {
     return (
         <View style={styles.container}>
-            <StatusBar barStyle="dark-content" />                
+            <StatusBar barStyle="dark-content" />    
+            <TouchableOpacity
+                    onPress={()=> NavigationService.navigate('BadgeComponent', {
+                        screen: 'BadgeComponent',
+                        info: 'information',                            
+                    })}
+                    style={{
+                        justifyContent: 'flex-end',
+                        backgroundColor: 'rgb(10,204,198)',
+                        padding: 10,
+                        marginTop: 10,
+                        borderRadius: 10,
+                        width:250,
+                    }}>
+                    <Text style={{fontSize: 20, textAlign: 'center', color: 'white'}}>Badge</Text>
+            </TouchableOpacity>            
             <TouchableOpacity
                     onPress={()=> NavigationService.navigate('BottomSheetComponent', {
                         screen: 'BottomSheetComponent',

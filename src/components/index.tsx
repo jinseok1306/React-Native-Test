@@ -6,7 +6,7 @@ import Menu from './Menu';
 import MapList from './MapList';
 import SplashScreen from './SplashScreen';
 import ReduxScreen from './ReduxScreen';
-import { CoreMenu, BottomSheetComponent, ButtonComponent, ButtonGroupComponent } from './componentExample';
+import * as component  from './componentExample';
 
 const AuthStack = createStackNavigator(
     {
@@ -60,24 +60,29 @@ const AuthStack = createStackNavigator(
                 //headerShown: false,  // 헤더 삭제 코드    
             }),
         },      
-        CoreMenu: {screen: CoreMenu,
+        CoreMenu: {screen: component.CoreMenu,
             navigationOptions: ({ navigation }) => ({
                 title: '컴포넌트 예제',
             }),
         }, 
-        BottomSheetComponent: {screen: BottomSheetComponent,
+        BottomSheetComponent: {screen: component.BottomSheetComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'BottomSheet',
             }),
         }, 
-        ButtonComponent: {screen: ButtonComponent,
+        ButtonComponent: {screen: component.ButtonComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'Button',
             }),
         }, 
-        ButtonGroupComponent: {screen: ButtonGroupComponent,
+        ButtonGroupComponent: {screen: component.ButtonGroupComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'ButtonGroup',
+            }),
+        }, 
+        BadgeComponent: {screen: component.BadgeComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Badge',
             }),
         }, 
     },
