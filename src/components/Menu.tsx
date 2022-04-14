@@ -51,6 +51,21 @@ const Menu = () => {
                     }}>
                     <Text style={{fontSize: 20, textAlign: 'center', color: 'white'}}>Redux 예제</Text>
             </TouchableOpacity>
+            <TouchableOpacity
+                    onPress={()=> NavigationService.navigate('CoreMenu', {
+                        screen: 'CoreMenu',
+                        info: 'information',                            
+                    })}
+                    style={{
+                        justifyContent: 'flex-end',
+                        backgroundColor: 'rgb(50,100,0)',
+                        padding: 10,
+                        marginTop: 10,
+                        borderRadius: 30,
+                        width:220,
+                    }}>
+                    <Text style={{fontSize: 20, textAlign: 'center', color: 'white'}}>컴포넌트 예제</Text>
+            </TouchableOpacity>
         </View>
     );
 }

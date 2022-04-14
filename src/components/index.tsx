@@ -6,6 +6,7 @@ import Menu from './Menu';
 import MapList from './MapList';
 import SplashScreen from './SplashScreen';
 import ReduxScreen from './ReduxScreen';
+import { CoreMenu, BottomSheet } from './componentExample';
 
 const AuthStack = createStackNavigator(
     {
@@ -59,6 +60,16 @@ const AuthStack = createStackNavigator(
                 //headerShown: false,  // 헤더 삭제 코드    
             }),
         },      
+        CoreMenu: {screen: CoreMenu,
+            navigationOptions: ({ navigation }) => ({
+                title: '컴포넌트 예제',
+            }),
+        }, 
+        BottomSheet: {screen: BottomSheet,
+            navigationOptions: ({ navigation }) => ({
+                title: 'BottomSheet',
+            }),
+        }, 
     },
     {
         initialRouteName: 'Menu'
