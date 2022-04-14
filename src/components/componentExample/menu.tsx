@@ -22,6 +22,21 @@ const CoreMenu = () => {
                     <Text style={{fontSize: 20, textAlign: 'center', color: 'white'}}>AirbnbRating</Text>
             </TouchableOpacity>  
             <TouchableOpacity
+                    onPress={()=> NavigationService.navigate('AvatarComponent', {
+                        screen: 'AvatarComponent',
+                        info: 'information',                            
+                    })}
+                    style={{
+                        justifyContent: 'flex-end',
+                        backgroundColor: 'rgb(10,204,198)',
+                        padding: 10,
+                        marginTop: 10,
+                        borderRadius: 10,
+                        width:250,
+                    }}>
+                    <Text style={{fontSize: 20, textAlign: 'center', color: 'white'}}>Avatar</Text>
+            </TouchableOpacity> 
+            <TouchableOpacity
                     onPress={()=> NavigationService.navigate('BadgeComponent', {
                         screen: 'BadgeComponent',
                         info: 'information',                            

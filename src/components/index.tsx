@@ -90,6 +90,11 @@ const AuthStack = createStackNavigator(
                 title: 'AirbnbRating',
             }),
         }, 
+        AvatarComponent: {screen: component.AvatarComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Avatar',
+            }),
+        }, 
     },
     {
         initialRouteName: 'Menu'
