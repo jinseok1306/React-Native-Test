@@ -1,4 +1,5 @@
 import CoreMenu from './menu';
-import BottomSheetComponent from './BottomSheet';
+import BottomSheetComponent from './BottomSheetComponent';
+import ButtonComponent from './ButtonComponent';
 
-export {CoreMenu, BottomSheetComponent};
+export {CoreMenu, BottomSheetComponent, ButtonComponent};
