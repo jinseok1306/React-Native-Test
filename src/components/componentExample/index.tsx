@@ -9,6 +9,7 @@ import CardComponent from './CardComponent';
 import CheckBoxComponent from './CheckBoxComponent';
 import ChipComponent from './ChipComponent';
 import DialogComponent from './DialogComponent';
+import DividerComponent from './DividerComponent';
 
 export {
     CoreMenu, 
@@ -21,5 +22,6 @@ export {
     CardComponent,
     CheckBoxComponent,
     ChipComponent,
-    DialogComponent
+    DialogComponent,
+    DividerComponent
 };

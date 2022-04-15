@@ -123,6 +123,11 @@ const AuthStack = createStackNavigator(
                 title: 'Dialog',
             }),
         }, 
+        DividerComponent: {screen: component.DividerComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Divider',
+            }),
+        }, 
     },
     {
         initialRouteName: 'Menu'
