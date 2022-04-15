@@ -11,6 +11,7 @@ import ChipComponent from './ChipComponent';
 import DialogComponent from './DialogComponent';
 import DividerComponent from './DividerComponent';
 import FABComponent from './FABComponent';
+import HeaderComponent from './HeaderComponent';
 
 export {
     CoreMenu, 
@@ -25,5 +26,6 @@ export {
     ChipComponent,
     DialogComponent,
     DividerComponent,
-    FABComponent
+    FABComponent,
+    HeaderComponent
 };
