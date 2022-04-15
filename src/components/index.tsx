@@ -62,7 +62,15 @@ const AuthStack = createStackNavigator(
         },      
         CoreMenu: {screen: component.CoreMenu,
             navigationOptions: ({ navigation }) => ({
-                title: '컴포넌트 예제',
+                title: 'React Native Elements',
+                headerStyle: {
+                    backgroundColor: 'rgb(46,117,223)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+                headerTitleAlign: 'center',
             }),
         }, 
         BottomSheetComponent: {screen: component.BottomSheetComponent,

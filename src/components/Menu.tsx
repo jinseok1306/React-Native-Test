@@ -58,13 +58,13 @@ const Menu = () => {
                     })}
                     style={{
                         justifyContent: 'flex-end',
-                        backgroundColor: 'rgb(50,100,0)',
+                        backgroundColor: 'rgb(46,117,223)',
                         padding: 10,
                         marginTop: 10,
                         borderRadius: 30,
                         width:220,
                     }}>
-                    <Text style={{fontSize: 20, textAlign: 'center', color: 'white'}}>컴포넌트 예제</Text>
+                    <Text style={{fontSize: 20, textAlign: 'center', color: 'white'}}>React Native Elements</Text>
             </TouchableOpacity>
         </View>
     );
