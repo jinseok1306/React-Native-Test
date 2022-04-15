@@ -241,6 +241,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
+        ImageComponent: {screen: component.ImageComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Image',
+                headerStyle: {
+                    backgroundColor: 'rgb(39,41,43)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        }, 
     },
     {
         initialRouteName: 'Menu'
