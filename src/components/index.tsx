@@ -73,59 +73,148 @@ const AuthStack = createStackNavigator(
                 headerTitleAlign: 'center',
             }),
         }, 
-        BottomSheetComponent: {screen: component.BottomSheetComponent,
-            navigationOptions: ({ navigation }) => ({
-                title: 'BottomSheet',
-            }),
-        }, 
-        ButtonComponent: {screen: component.ButtonComponent,
-            navigationOptions: ({ navigation }) => ({
-                title: 'Button',
-            }),
-        }, 
-        ButtonGroupComponent: {screen: component.ButtonGroupComponent,
-            navigationOptions: ({ navigation }) => ({
-                title: 'ButtonGroup',
-            }),
-        }, 
-        BadgeComponent: {screen: component.BadgeComponent,
-            navigationOptions: ({ navigation }) => ({
-                title: 'Badge',
-            }),
-        }, 
         AirbnbRatingComponent: {screen: component.AirbnbRatingComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'AirbnbRating',
+                headerStyle: {
+                    backgroundColor: 'rgb(39,41,43)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
             }),
         }, 
         AvatarComponent: {screen: component.AvatarComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'Avatar',
+                headerStyle: {
+                    backgroundColor: 'rgb(39,41,43)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
             }),
         }, 
+        BadgeComponent: {screen: component.BadgeComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Badge',
+                headerStyle: {
+                    backgroundColor: 'rgb(39,41,43)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        },         
+        BottomSheetComponent: {screen: component.BottomSheetComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'BottomSheet',
+                headerStyle: {
+                    backgroundColor: 'rgb(39,41,43)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        }, 
+        ButtonComponent: {screen: component.ButtonComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Button',
+                headerStyle: {
+                    backgroundColor: 'rgb(39,41,43)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        }, 
+        ButtonGroupComponent: {screen: component.ButtonGroupComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'ButtonGroup',
+                headerStyle: {
+                    backgroundColor: 'rgb(39,41,43)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        },         
         CardComponent: {screen: component.CardComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'Card',
+                headerStyle: {
+                    backgroundColor: 'rgb(39,41,43)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
             }),
         }, 
         CheckBoxComponent: {screen: component.CheckBoxComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'CheckBox',
+                headerStyle: {
+                    backgroundColor: 'rgb(39,41,43)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
             }),
         }, 
         ChipComponent: {screen: component.ChipComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'Chip',
+                headerStyle: {
+                    backgroundColor: 'rgb(39,41,43)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
             }),
         }, 
         DialogComponent: {screen: component.DialogComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'Dialog',
+                headerStyle: {
+                    backgroundColor: 'rgb(39,41,43)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
             }),
         }, 
         DividerComponent: {screen: component.DividerComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'Divider',
+                headerStyle: {
+                    backgroundColor: 'rgb(39,41,43)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        }, 
+        FABComponent: {screen: component.FABComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'FAB',
+                headerStyle: {
+                    backgroundColor: 'rgb(39,41,43)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
             }),
         }, 
     },

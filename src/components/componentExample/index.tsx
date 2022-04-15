@@ -10,6 +10,7 @@ import CheckBoxComponent from './CheckBoxComponent';
 import ChipComponent from './ChipComponent';
 import DialogComponent from './DialogComponent';
 import DividerComponent from './DividerComponent';
+import FABComponent from './FABComponent';
 
 export {
     CoreMenu, 
@@ -23,5 +24,6 @@ export {
     CheckBoxComponent,
     ChipComponent,
     DialogComponent,
-    DividerComponent
+    DividerComponent,
+    FABComponent
 };
