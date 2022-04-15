@@ -14,6 +14,7 @@ import FABComponent from './FABComponent';
 import HeaderComponent from './HeaderComponent';
 import IconComponent from './IconComponent';
 import ImageComponent from './ImageComponent';
+import InputComponent from './InputComponent';
 
 export {
     CoreMenu, 
@@ -31,5 +32,6 @@ export {
     FABComponent,
     HeaderComponent,
     IconComponent,
-    ImageComponent
+    ImageComponent,
+    InputComponent
 };

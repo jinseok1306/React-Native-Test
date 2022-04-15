@@ -253,6 +253,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
+        InputComponent: {screen: component.InputComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Input',
+                headerStyle: {
+                    backgroundColor: 'rgb(39,41,43)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        }, 
     },
     {
         initialRouteName: 'Menu'
