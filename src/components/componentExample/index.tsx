@@ -7,6 +7,7 @@ import AirbnbRatingComponent from './AirbnbRatingComponent';
 import AvatarComponent from './AvatarComponent';
 import CardComponent from './CardComponent';
 import CheckBoxComponent from './CheckBoxComponent';
+import ChipComponent from './ChipComponent';
 
 export {
     CoreMenu, 
@@ -17,5 +18,6 @@ export {
     AirbnbRatingComponent,
     AvatarComponent,
     CardComponent,
-    CheckBoxComponent
+    CheckBoxComponent,
+    ChipComponent
 };

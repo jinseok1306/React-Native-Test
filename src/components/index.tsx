@@ -105,6 +105,11 @@ const AuthStack = createStackNavigator(
                 title: 'CheckBox',
             }),
         }, 
+        ChipComponent: {screen: component.ChipComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Chip',
+            }),
+        }, 
     },
     {
         initialRouteName: 'Menu'
