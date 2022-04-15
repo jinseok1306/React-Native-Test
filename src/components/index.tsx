@@ -265,6 +265,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
+        LinearProgressComponent: {screen: component.LinearProgressComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'LinearProgress',
+                headerStyle: {
+                    backgroundColor: 'rgb(39,41,43)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        }, 
     },
     {
         initialRouteName: 'Menu'
