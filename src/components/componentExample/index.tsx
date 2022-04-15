@@ -6,6 +6,7 @@ import BadgeComponent from './BadgeComponent';
 import AirbnbRatingComponent from './AirbnbRatingComponent';
 import AvatarComponent from './AvatarComponent';
 import CardComponent from './CardComponent';
+import CheckBoxComponent from './CheckBoxComponent';
 
 export {
     CoreMenu, 
@@ -15,5 +16,6 @@ export {
     BadgeComponent,
     AirbnbRatingComponent,
     AvatarComponent,
-    CardComponent
+    CardComponent,
+    CheckBoxComponent
 };

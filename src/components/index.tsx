@@ -100,6 +100,11 @@ const AuthStack = createStackNavigator(
                 title: 'Card',
             }),
         }, 
+        CheckBoxComponent: {screen: component.CheckBoxComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'CheckBox',
+            }),
+        }, 
     },
     {
         initialRouteName: 'Menu'

@@ -112,6 +112,21 @@ const CoreMenu = () => {
                     }}>
                     <Text style={{fontSize: 20, textAlign: 'center', color: 'white'}}>Card</Text>
                 </TouchableOpacity>
+                <TouchableOpacity
+                    onPress={()=> NavigationService.navigate('CheckBoxComponent', {
+                        screen: 'CheckBoxComponent',
+                        info: 'information',                            
+                    })}
+                    style={{
+                        justifyContent: 'flex-end',
+                        backgroundColor: 'rgb(10,204,198)',
+                        padding: 10,
+                        marginTop: 10,
+                        borderRadius: 10,
+                        width:250,
+                    }}>
+                    <Text style={{fontSize: 20, textAlign: 'center', color: 'white'}}>CheckBox</Text>
+                </TouchableOpacity>
             </ScrollView>            
         </View>
     );
