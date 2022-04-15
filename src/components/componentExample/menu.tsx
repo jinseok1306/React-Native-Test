@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet, StatusBar } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet, StatusBar, ScrollView } from 'react-native';
 import { NavigationService } from '../../common'; 
 
 const CoreMenu = () => {
     return (
         <View style={styles.container}>
             <StatusBar barStyle="dark-content" />  
-            <TouchableOpacity
+            <ScrollView>
+                <TouchableOpacity   
                     onPress={()=> NavigationService.navigate('AirbnbRatingComponent', {
                         screen: 'AirbnbRatingComponent',
                         info: 'information',                            
@@ -20,8 +21,8 @@ const CoreMenu = () => {
                         width:250,
                     }}>
                     <Text style={{fontSize: 20, textAlign: 'center', color: 'white'}}>AirbnbRating</Text>
-            </TouchableOpacity>  
-            <TouchableOpacity
+                </TouchableOpacity>  
+                <TouchableOpacity
                     onPress={()=> NavigationService.navigate('AvatarComponent', {
                         screen: 'AvatarComponent',
                         info: 'information',                            
@@ -35,8 +36,8 @@ const CoreMenu = () => {
                         width:250,
                     }}>
                     <Text style={{fontSize: 20, textAlign: 'center', color: 'white'}}>Avatar</Text>
-            </TouchableOpacity> 
-            <TouchableOpacity
+                </TouchableOpacity> 
+                <TouchableOpacity
                     onPress={()=> NavigationService.navigate('BadgeComponent', {
                         screen: 'BadgeComponent',
                         info: 'information',                            
@@ -50,8 +51,8 @@ const CoreMenu = () => {
                         width:250,
                     }}>
                     <Text style={{fontSize: 20, textAlign: 'center', color: 'white'}}>Badge</Text>
-            </TouchableOpacity>            
-            <TouchableOpacity
+                </TouchableOpacity>            
+                <TouchableOpacity
                     onPress={()=> NavigationService.navigate('BottomSheetComponent', {
                         screen: 'BottomSheetComponent',
                         info: 'information',                            
@@ -65,8 +66,8 @@ const CoreMenu = () => {
                         width:250,
                     }}>
                     <Text style={{fontSize: 20, textAlign: 'center', color: 'white'}}>BottomSheet</Text>
-            </TouchableOpacity>
-            <TouchableOpacity
+                </TouchableOpacity>
+                <TouchableOpacity
                     onPress={()=> NavigationService.navigate('ButtonComponent', {
                         screen: 'ButtonComponent',
                         info: 'information',                            
@@ -80,8 +81,8 @@ const CoreMenu = () => {
                         width:250,
                     }}>
                     <Text style={{fontSize: 20, textAlign: 'center', color: 'white'}}>Button</Text>
-            </TouchableOpacity>
-            <TouchableOpacity
+                </TouchableOpacity>
+                <TouchableOpacity
                     onPress={()=> NavigationService.navigate('ButtonGroupComponent', {
                         screen: 'ButtonGroupComponent',
                         info: 'information',                            
@@ -95,8 +96,8 @@ const CoreMenu = () => {
                         width:250,
                     }}>
                     <Text style={{fontSize: 20, textAlign: 'center', color: 'white'}}>ButtonGroup</Text>
-            </TouchableOpacity>
-            <TouchableOpacity
+                </TouchableOpacity>
+                <TouchableOpacity
                     onPress={()=> NavigationService.navigate('CardComponent', {
                         screen: 'CardComponent',
                         info: 'information',                            
@@ -110,7 +111,8 @@ const CoreMenu = () => {
                         width:250,
                     }}>
                     <Text style={{fontSize: 20, textAlign: 'center', color: 'white'}}>Card</Text>
-            </TouchableOpacity>
+                </TouchableOpacity>
+            </ScrollView>            
         </View>
     );
 }
