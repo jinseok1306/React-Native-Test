@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, StyleSheet, StatusBar, ScrollView } from 'react-native';
+import { View, StyleSheet, StatusBar, ScrollView, Text } from 'react-native';
 import { NavigationService } from '../../common'; 
 import { Button } from '@rneui/themed';
 
@@ -7,8 +7,8 @@ const CoreMenu = () => {
     return (
         <View style={styles.container}>
             <StatusBar barStyle="dark-content" />              
-            <ScrollView>                         
-                <View style={styles.buttonsContainer}>                
+            <ScrollView>                                     
+                <View style={styles.buttonsContainer}>                                  
                     <Button
                         title={'AirbnbRating'}
                         containerStyle={{
@@ -178,6 +178,19 @@ const CoreMenu = () => {
                             info: 'information',                            
                         })}
                     />
+                    <Button
+                        title={'Icon'}
+                        containerStyle={{
+                            width: 250,
+                            marginHorizontal: 50,
+                            marginVertical: 10,
+                            borderRadius: 10,                            
+                        }}
+                        onPress={()=> NavigationService.navigate('IconComponent', {
+                            screen: 'IconComponent',
+                            info: 'information',                            
+                        })}
+                    />
                 </View>                                                                                                                                                                          
             </ScrollView>            
         </View>
@@ -202,7 +215,7 @@ const styles = StyleSheet.create({
         marginVertical: 20,
     },
     subHeader: {
-        backgroundColor : "#2089dc",
+        backgroundColor : "#0B3661",
         color : "white",
         textAlign : "center",
         paddingVertical : 5,

@@ -12,6 +12,7 @@ import DialogComponent from './DialogComponent';
 import DividerComponent from './DividerComponent';
 import FABComponent from './FABComponent';
 import HeaderComponent from './HeaderComponent';
+import IconComponent from './IconComponent';
 
 export {
     CoreMenu, 
@@ -27,5 +28,6 @@ export {
     DialogComponent,
     DividerComponent,
     FABComponent,
-    HeaderComponent
+    HeaderComponent,
+    IconComponent
 };
