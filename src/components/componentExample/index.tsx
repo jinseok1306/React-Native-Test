@@ -8,6 +8,7 @@ import AvatarComponent from './AvatarComponent';
 import CardComponent from './CardComponent';
 import CheckBoxComponent from './CheckBoxComponent';
 import ChipComponent from './ChipComponent';
+import DialogComponent from './DialogComponent';
 
 export {
     CoreMenu, 
@@ -19,5 +20,6 @@ export {
     AvatarComponent,
     CardComponent,
     CheckBoxComponent,
-    ChipComponent
+    ChipComponent,
+    DialogComponent
 };

@@ -118,6 +118,11 @@ const AuthStack = createStackNavigator(
                 title: 'Chip',
             }),
         }, 
+        DialogComponent: {screen: component.DialogComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Dialog',
+            }),
+        }, 
     },
     {
         initialRouteName: 'Menu'
