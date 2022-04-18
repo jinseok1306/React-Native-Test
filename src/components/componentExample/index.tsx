@@ -21,6 +21,7 @@ import OverlayComponent from './OverlayComponent';
 import PricingCardComponent from './PricingCardComponent';
 import SearchBarComponent from './SearchBarComponent';
 import SliderComponent from './SliderComponent';
+import SocialIconComponent from './SocialIconComponent';
 
 export {
     CoreMenu, 
@@ -45,5 +46,6 @@ export {
     OverlayComponent,    
     PricingCardComponent,
     SearchBarComponent,
-    SliderComponent
+    SliderComponent,
+    SocialIconComponent
 };

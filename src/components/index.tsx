@@ -337,6 +337,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
+        SocialIconComponent: {screen: component.SocialIconComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'SocialIcon',
+                headerStyle: {
+                    backgroundColor: 'rgb(39,41,43)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        }, 
     },
     {
         initialRouteName: 'Menu'
