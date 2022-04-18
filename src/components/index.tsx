@@ -385,6 +385,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
+        TileComponent: {screen: component.TileComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Tile',
+                headerStyle: {
+                    backgroundColor: 'rgb(39,41,43)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        }, 
     },
     {
         initialRouteName: 'Menu'

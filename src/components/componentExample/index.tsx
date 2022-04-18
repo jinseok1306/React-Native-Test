@@ -25,6 +25,7 @@ import SocialIconComponent from './SocialIconComponent';
 import SpeedDialComponent from './SpeedDialComponent';
 import SwitchComponent from './SwitchComponent';
 import TabComponent  from './TabComponent';
+import TileComponent from './TileComponent';
 
 export {
     CoreMenu, 
@@ -53,5 +54,6 @@ export {
     SocialIconComponent,
     SpeedDialComponent,
     SwitchComponent,
-    TabComponent
+    TabComponent,
+    TileComponent
 };
