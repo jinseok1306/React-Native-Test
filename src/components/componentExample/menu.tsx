@@ -308,6 +308,19 @@ const CoreMenu = () => {
                             info: 'information',                            
                         })}
                     />
+                    <Button
+                        title={'SpeedDial'}
+                        containerStyle={{
+                            width: 250,
+                            marginHorizontal: 50,
+                            marginVertical: 10,
+                            borderRadius: 10,                            
+                        }}
+                        onPress={()=> NavigationService.navigate('SpeedDialComponent', {
+                            screen: 'SpeedDialComponent',
+                            info: 'information',                            
+                        })}
+                    />
                 </View>                                                                                                                                                                          
             </ScrollView>            
         </View>

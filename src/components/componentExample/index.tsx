@@ -22,6 +22,7 @@ import PricingCardComponent from './PricingCardComponent';
 import SearchBarComponent from './SearchBarComponent';
 import SliderComponent from './SliderComponent';
 import SocialIconComponent from './SocialIconComponent';
+import SpeedDialComponent from './SpeedDialComponent';
 
 export {
     CoreMenu, 
@@ -47,5 +48,6 @@ export {
     PricingCardComponent,
     SearchBarComponent,
     SliderComponent,
-    SocialIconComponent
+    SocialIconComponent,
+    SpeedDialComponent
 };

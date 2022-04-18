@@ -349,6 +349,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
+        SpeedDialComponent: {screen: component.SpeedDialComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'SpeedDial',
+                headerStyle: {
+                    backgroundColor: 'rgb(39,41,43)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        }, 
     },
     {
         initialRouteName: 'Menu'
