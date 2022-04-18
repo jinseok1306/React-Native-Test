@@ -334,6 +334,19 @@ const CoreMenu = () => {
                             info: 'information',                            
                         })}
                     />
+                    <Button
+                        title={'Tab'}
+                        containerStyle={{
+                            width: 250,
+                            marginHorizontal: 50,
+                            marginVertical: 10,
+                            borderRadius: 10,                            
+                        }}
+                        onPress={()=> NavigationService.navigate('TabComponent', {
+                            screen: 'TabComponent',
+                            info: 'information',                            
+                        })}
+                    />
                 </View>                                                                                                                                                                          
             </ScrollView>            
         </View>
