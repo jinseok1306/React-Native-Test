@@ -301,6 +301,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
+        PricingCardComponent: {screen: component.PricingCardComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'PricingCard',
+                headerStyle: {
+                    backgroundColor: 'rgb(39,41,43)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        }, 
     },
     {
         initialRouteName: 'Menu'
