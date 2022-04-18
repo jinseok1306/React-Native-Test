@@ -17,6 +17,7 @@ import ImageComponent from './ImageComponent';
 import InputComponent from './InputComponent';
 import LinearProgressComponent from './LinearProgressComponent';
 import ListItemComponent from './ListItemComponent';
+import OverlayComponent from './OverlayComponent';
 
 export {
     CoreMenu, 
@@ -37,5 +38,6 @@ export {
     ImageComponent,
     InputComponent,
     LinearProgressComponent,
-    ListItemComponent
+    ListItemComponent,
+    OverlayComponent
 };

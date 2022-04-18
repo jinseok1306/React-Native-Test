@@ -289,6 +289,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
+        OverlayComponent: {screen: component.OverlayComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Overlay',
+                headerStyle: {
+                    backgroundColor: 'rgb(39,41,43)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        }, 
     },
     {
         initialRouteName: 'Menu'
