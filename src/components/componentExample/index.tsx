@@ -20,6 +20,7 @@ import ListItemComponent from './ListItemComponent';
 import OverlayComponent from './OverlayComponent';
 import PricingCardComponent from './PricingCardComponent';
 import SearchBarComponent from './SearchBarComponent';
+import SliderComponent from './SliderComponent';
 
 export {
     CoreMenu, 
@@ -43,5 +44,6 @@ export {
     ListItemComponent,
     OverlayComponent,    
     PricingCardComponent,
-    SearchBarComponent
+    SearchBarComponent,
+    SliderComponent
 };
