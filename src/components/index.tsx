@@ -313,6 +313,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
+        SearchBarComponent: {screen: component.SearchBarComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'SearchBar',
+                headerStyle: {
+                    backgroundColor: 'rgb(39,41,43)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        }, 
     },
     {
         initialRouteName: 'Menu'

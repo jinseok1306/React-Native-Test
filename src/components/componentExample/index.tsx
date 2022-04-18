@@ -19,6 +19,7 @@ import LinearProgressComponent from './LinearProgressComponent';
 import ListItemComponent from './ListItemComponent';
 import OverlayComponent from './OverlayComponent';
 import PricingCardComponent from './PricingCardComponent';
+import SearchBarComponent from './SearchBarComponent';
 
 export {
     CoreMenu, 
@@ -41,5 +42,6 @@ export {
     LinearProgressComponent,
     ListItemComponent,
     OverlayComponent,    
-    PricingCardComponent
+    PricingCardComponent,
+    SearchBarComponent
 };
