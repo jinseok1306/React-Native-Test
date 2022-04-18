@@ -6,7 +6,7 @@ import Menu from './Menu';
 import MapList from './MapList';
 import SplashScreen from './SplashScreen';
 import ReduxScreen from './ReduxScreen';
-import * as component  from './componentExample';
+import * as component  from './RNElementsComponent';
 
 const AuthStack = createStackNavigator(
     {
