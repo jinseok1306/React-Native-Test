@@ -23,6 +23,7 @@ import SearchBarComponent from './SearchBarComponent';
 import SliderComponent from './SliderComponent';
 import SocialIconComponent from './SocialIconComponent';
 import SpeedDialComponent from './SpeedDialComponent';
+import SwitchComponent from './SwitchComponent';
 
 export {
     CoreMenu, 
@@ -49,5 +50,6 @@ export {
     SearchBarComponent,
     SliderComponent,
     SocialIconComponent,
-    SpeedDialComponent
+    SpeedDialComponent,
+    SwitchComponent
 };

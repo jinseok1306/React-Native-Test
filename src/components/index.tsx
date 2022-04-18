@@ -361,6 +361,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
+        SwitchComponent: {screen: component.SwitchComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Switch',
+                headerStyle: {
+                    backgroundColor: 'rgb(39,41,43)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        }, 
     },
     {
         initialRouteName: 'Menu'
