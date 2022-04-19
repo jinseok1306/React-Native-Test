@@ -6,6 +6,7 @@ import Menu from './Menu';
 import MapList from './MapList';
 import SplashScreen from './SplashScreen';
 import ReduxScreen from './ReduxScreen';
+import SQLiteScreen from './SQLiteScreen';
 import * as component  from './componentExample';
 
 const AuthStack = createStackNavigator(
@@ -60,6 +61,19 @@ const AuthStack = createStackNavigator(
                 //headerShown: false,  // 헤더 삭제 코드    
             }),
         },      
+        SQLiteScreen: {screen: SQLiteScreen,
+            navigationOptions: ({ navigation }) => ({
+                title: 'SQLite 예제',
+                headerStyle: {
+                    backgroundColor: 'rgb(0,150,0)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+                headerTitleAlign: 'center', 
+            }),
+        },  
         CoreMenu: {screen: component.CoreMenu,
             navigationOptions: ({ navigation }) => ({
                 title: 'React Native Elements',
