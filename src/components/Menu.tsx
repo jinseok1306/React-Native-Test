@@ -52,6 +52,21 @@ const Menu = () => {
                     <Text style={{fontSize: 20, textAlign: 'center', color: 'white'}}>Redux 예제</Text>
             </TouchableOpacity>
             <TouchableOpacity
+                    onPress={()=> NavigationService.navigate('SQLiteScreen', {
+                        screen: 'SQLiteScreen',
+                        info: 'information',                            
+                    })}
+                    style={{
+                        justifyContent: 'flex-end',
+                        backgroundColor: 'rgb(0,150,0)',
+                        padding: 10,
+                        marginTop: 10,
+                        borderRadius: 30,
+                        width:220,
+                    }}>
+                    <Text style={{fontSize: 20, textAlign: 'center', color: 'white'}}>SQLite 예제</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
                     onPress={()=> NavigationService.navigate('CoreMenu', {
                         screen: 'CoreMenu',
                         info: 'information',                            
