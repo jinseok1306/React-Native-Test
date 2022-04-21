@@ -106,7 +106,21 @@ const RNCoreMenu = () => {
                             screen: 'ModalComponent',
                             info: 'information',                            
                         })}
-                    />     
+                    />  
+                    <Button
+                        title={'Pressable'}
+                        buttonStyle={{ backgroundColor: 'rgba(199, 43, 98, 1)' }}
+                        containerStyle={{
+                            width: 250,
+                            marginHorizontal: 50,
+                            marginVertical: 10,
+                            borderRadius: 10,                            
+                        }}
+                        onPress={()=> NavigationService.navigate('PressableComponent', {
+                            screen: 'PressableComponent',
+                            info: 'information',                            
+                        })}
+                    />   
                 </View>                                                                                                                                                                          
             </ScrollView>            
         </View>
