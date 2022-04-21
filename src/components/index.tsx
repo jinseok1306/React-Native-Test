@@ -205,6 +205,19 @@ const AuthStack = createStackNavigator(
                 headerTitleAlign: 'center',
             }),
         },
+        ScrollViewComponent: {screen: RNCoreCompont.ScrollViewComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'ScrollView',
+                headerStyle: {
+                    backgroundColor: 'rgba(199, 43, 98, 1)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+                headerTitleAlign: 'center',
+            }),
+        },
         RNElementMenu: {screen: RNElementComponent.RNElementMenu,
             navigationOptions: ({ navigation }) => ({
                 title: 'React Native Elements',
