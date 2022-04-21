@@ -22,7 +22,21 @@ const RNCoreMenu = () => {
                             screen: 'ActivityIndicatorComponent',
                             info: 'information',                            
                         })}
-                    />                    
+                    />         
+                    <Button
+                        title={'Button'}
+                        buttonStyle={{ backgroundColor: 'rgba(199, 43, 98, 1)' }}
+                        containerStyle={{
+                            width: 250,
+                            marginHorizontal: 50,
+                            marginVertical: 10,
+                            borderRadius: 10,                            
+                        }}
+                        onPress={()=> NavigationService.navigate('CoreButtonComponent', {
+                            screen: 'CoreButtonComponent',
+                            info: 'information',                            
+                        })}
+                    />                 
                 </View>                                                                                                                                                                          
             </ScrollView>            
         </View>
