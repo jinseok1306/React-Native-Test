@@ -11,6 +11,7 @@ import {
     Switch    
 } from '@rneui/themed';
 
+
 let db: SQLite.SQLiteDatabase;
 let users: any[] = [];
 
@@ -25,7 +26,7 @@ const SQLiteScreen = () => {
     function dataSearch() {                     
         db = SQLite.openDatabase(
             {
-                name: 'TestDB',
+                name: 'TestDB.db',
                 location: 'default',
                 createFromLocation: 1,
             },
@@ -41,8 +42,7 @@ const SQLiteScreen = () => {
                                 users.push({
                                     ...rows.item(i),
                                 });
-                            }  
-                            console.log(users);                         
+                            }                                                
                             setLoading(false);                          
                         });    
 
