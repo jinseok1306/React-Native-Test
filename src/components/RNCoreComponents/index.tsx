@@ -7,6 +7,7 @@ import ImageBackgroundComponent from './ImageBackgroundComponent';
 import KeyboardAvoidingViewComponent from './KeyboardAvoidingViewComponent';
 import ModalComponent from './ModalComponent';
 import PressableComponent from './PressableComponent';
+import RefreshControlComponent from './RefreshControlComponent';
 
 export {
     RNCoreMenu,
@@ -17,5 +18,6 @@ export {
     ImageBackgroundComponent,
     KeyboardAvoidingViewComponent,
     ModalComponent,
-    PressableComponent
+    PressableComponent,
+    RefreshControlComponent
 };

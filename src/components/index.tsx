@@ -192,6 +192,19 @@ const AuthStack = createStackNavigator(
                 headerTitleAlign: 'center',
             }),
         },
+        RefreshControlComponent: {screen: RNCoreCompont.RefreshControlComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'RefreshControl',
+                headerStyle: {
+                    backgroundColor: 'rgba(199, 43, 98, 1)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+                headerTitleAlign: 'center',
+            }),
+        },
         RNElementMenu: {screen: RNElementComponent.RNElementMenu,
             navigationOptions: ({ navigation }) => ({
                 title: 'React Native Elements',
