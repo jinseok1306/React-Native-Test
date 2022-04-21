@@ -78,7 +78,21 @@ const RNCoreMenu = () => {
                             screen: 'ImageBackgroundComponent',
                             info: 'information',                            
                         })}
-                    />        
+                    />      
+                    <Button
+                        title={'KeyboardAvoidingView'}
+                        buttonStyle={{ backgroundColor: 'rgba(199, 43, 98, 1)' }}
+                        containerStyle={{
+                            width: 250,
+                            marginHorizontal: 50,
+                            marginVertical: 10,
+                            borderRadius: 10,                            
+                        }}
+                        onPress={()=> NavigationService.navigate('KeyboardAvoidingViewComponent', {
+                            screen: 'KeyboardAvoidingViewComponent',
+                            info: 'information',                            
+                        })}
+                    />     
                 </View>                                                                                                                                                                          
             </ScrollView>            
         </View>
