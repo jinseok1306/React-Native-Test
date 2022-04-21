@@ -9,6 +9,7 @@ import ModalComponent from './ModalComponent';
 import PressableComponent from './PressableComponent';
 import RefreshControlComponent from './RefreshControlComponent';
 import ScrollViewComponent from './ScrollViewComponent';
+import SectionListComponent from './SectionListComponent';
 
 export {
     RNCoreMenu,
@@ -21,5 +22,6 @@ export {
     ModalComponent,
     PressableComponent,
     RefreshControlComponent,
-    ScrollViewComponent
+    ScrollViewComponent,
+    SectionListComponent
 };
