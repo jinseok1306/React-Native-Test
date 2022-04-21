@@ -51,6 +51,20 @@ const RNCoreMenu = () => {
                             info: 'information',                            
                         })}
                     />             
+                    <Button
+                        title={'Image'}
+                        buttonStyle={{ backgroundColor: 'rgba(199, 43, 98, 1)' }}
+                        containerStyle={{
+                            width: 250,
+                            marginHorizontal: 50,
+                            marginVertical: 10,
+                            borderRadius: 10,                            
+                        }}
+                        onPress={()=> NavigationService.navigate('CoreImageComponent', {
+                            screen: 'CoreImageComponent',
+                            info: 'information',                            
+                        })}
+                    />            
                 </View>                                                                                                                                                                          
             </ScrollView>            
         </View>
