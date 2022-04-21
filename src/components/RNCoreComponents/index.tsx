@@ -5,6 +5,7 @@ import FlatListComponent from './FlatListComponent';
 import ImageComponent from './ImageComponent';
 import ImageBackgroundComponent from './ImageBackgroundComponent';
 import KeyboardAvoidingViewComponent from './KeyboardAvoidingViewComponent';
+import ModalComponent from './ModalComponent';
 
 export {
     RNCoreMenu,
@@ -13,5 +14,6 @@ export {
     FlatListComponent,
     ImageComponent,
     ImageBackgroundComponent,
-    KeyboardAvoidingViewComponent
+    KeyboardAvoidingViewComponent,
+    ModalComponent
 };
