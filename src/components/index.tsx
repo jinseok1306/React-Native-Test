@@ -7,7 +7,8 @@ import MapList from './MapList';
 import SplashScreen from './SplashScreen';
 import ReduxScreen from './ReduxScreen';
 import SQLiteScreen from './SQLiteScreen';
-import * as component  from './RNElementComponents';
+import * as RNElementComponent  from './RNElementComponents';
+import * as RNCoreCompont from './RNCoreComponents';
 
 const AuthStack = createStackNavigator(
     {
@@ -74,7 +75,33 @@ const AuthStack = createStackNavigator(
                 headerTitleAlign: 'center', 
             }),
         },  
-        CoreMenu: {screen: component.CoreMenu,
+        CoreMenu: {screen: RNCoreCompont.RNCoreMenu,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Core Components',
+                headerStyle: {
+                    backgroundColor: 'rgba(199, 43, 98, 1)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+                headerTitleAlign: 'center',
+            }),
+        },
+        ActivityIndicatorComponent: {screen: RNCoreCompont.ActivityIndicatorComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'ActivityIndicator',
+                headerStyle: {
+                    backgroundColor: 'rgba(199, 43, 98, 1)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+                headerTitleAlign: 'center',
+            }),
+        },
+        RNElementMenu: {screen: RNElementComponent.RNElementMenu,
             navigationOptions: ({ navigation }) => ({
                 title: 'React Native Elements',
                 headerStyle: {
@@ -87,7 +114,7 @@ const AuthStack = createStackNavigator(
                 headerTitleAlign: 'center',
             }),
         }, 
-        AirbnbRatingComponent: {screen: component.AirbnbRatingComponent,
+        AirbnbRatingComponent: {screen: RNElementComponent.AirbnbRatingComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'AirbnbRating',
                 headerStyle: {
@@ -99,7 +126,7 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
-        AvatarComponent: {screen: component.AvatarComponent,
+        AvatarComponent: {screen: RNElementComponent.AvatarComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'Avatar',
                 headerStyle: {
@@ -111,7 +138,7 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
-        BadgeComponent: {screen: component.BadgeComponent,
+        BadgeComponent: {screen: RNElementComponent.BadgeComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'Badge',
                 headerStyle: {
@@ -123,7 +150,7 @@ const AuthStack = createStackNavigator(
                 },
             }),
         },         
-        BottomSheetComponent: {screen: component.BottomSheetComponent,
+        BottomSheetComponent: {screen: RNElementComponent.BottomSheetComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'BottomSheet',
                 headerStyle: {
@@ -135,7 +162,7 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
-        ButtonComponent: {screen: component.ButtonComponent,
+        ButtonComponent: {screen: RNElementComponent.ButtonComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'Button',
                 headerStyle: {
@@ -147,7 +174,7 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
-        ButtonGroupComponent: {screen: component.ButtonGroupComponent,
+        ButtonGroupComponent: {screen: RNElementComponent.ButtonGroupComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'ButtonGroup',
                 headerStyle: {
@@ -159,7 +186,7 @@ const AuthStack = createStackNavigator(
                 },
             }),
         },         
-        CardComponent: {screen: component.CardComponent,
+        CardComponent: {screen: RNElementComponent.CardComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'Card',
                 headerStyle: {
@@ -171,7 +198,7 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
-        CheckBoxComponent: {screen: component.CheckBoxComponent,
+        CheckBoxComponent: {screen: RNElementComponent.CheckBoxComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'CheckBox',
                 headerStyle: {
@@ -183,7 +210,7 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
-        ChipComponent: {screen: component.ChipComponent,
+        ChipComponent: {screen: RNElementComponent.ChipComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'Chip',
                 headerStyle: {
@@ -195,7 +222,7 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
-        DialogComponent: {screen: component.DialogComponent,
+        DialogComponent: {screen: RNElementComponent.DialogComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'Dialog',
                 headerStyle: {
@@ -207,7 +234,7 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
-        DividerComponent: {screen: component.DividerComponent,
+        DividerComponent: {screen: RNElementComponent.DividerComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'Divider',
                 headerStyle: {
@@ -219,7 +246,7 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
-        FABComponent: {screen: component.FABComponent,
+        FABComponent: {screen: RNElementComponent.FABComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'FAB',
                 headerStyle: {
@@ -231,7 +258,7 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
-        HeaderComponent: {screen: component.HeaderComponent,
+        HeaderComponent: {screen: RNElementComponent.HeaderComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'Header',
                 headerStyle: {
@@ -243,7 +270,7 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
-        IconComponent: {screen: component.IconComponent,
+        IconComponent: {screen: RNElementComponent.IconComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'Icon',
                 headerStyle: {
@@ -255,7 +282,7 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
-        ImageComponent: {screen: component.ImageComponent,
+        ImageComponent: {screen: RNElementComponent.ImageComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'Image',
                 headerStyle: {
@@ -267,7 +294,7 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
-        InputComponent: {screen: component.InputComponent,
+        InputComponent: {screen: RNElementComponent.InputComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'Input',
                 headerStyle: {
@@ -279,7 +306,7 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
-        LinearProgressComponent: {screen: component.LinearProgressComponent,
+        LinearProgressComponent: {screen: RNElementComponent.LinearProgressComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'LinearProgress',
                 headerStyle: {
@@ -291,7 +318,7 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
-        ListItemComponent: {screen: component.ListItemComponent,
+        ListItemComponent: {screen: RNElementComponent.ListItemComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'ListItem',
                 headerStyle: {
@@ -303,7 +330,7 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
-        OverlayComponent: {screen: component.OverlayComponent,
+        OverlayComponent: {screen: RNElementComponent.OverlayComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'Overlay',
                 headerStyle: {
@@ -315,7 +342,7 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
-        PricingCardComponent: {screen: component.PricingCardComponent,
+        PricingCardComponent: {screen: RNElementComponent.PricingCardComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'PricingCard',
                 headerStyle: {
@@ -327,7 +354,7 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
-        SearchBarComponent: {screen: component.SearchBarComponent,
+        SearchBarComponent: {screen: RNElementComponent.SearchBarComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'SearchBar',
                 headerStyle: {
@@ -339,7 +366,7 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
-        SliderComponent: {screen: component.SliderComponent,
+        SliderComponent: {screen: RNElementComponent.SliderComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'Slider',
                 headerStyle: {
@@ -351,7 +378,7 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
-        SocialIconComponent: {screen: component.SocialIconComponent,
+        SocialIconComponent: {screen: RNElementComponent.SocialIconComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'SocialIcon',
                 headerStyle: {
@@ -363,7 +390,7 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
-        SpeedDialComponent: {screen: component.SpeedDialComponent,
+        SpeedDialComponent: {screen: RNElementComponent.SpeedDialComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'SpeedDial',
                 headerStyle: {
@@ -375,7 +402,7 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
-        SwitchComponent: {screen: component.SwitchComponent,
+        SwitchComponent: {screen: RNElementComponent.SwitchComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'Switch',
                 headerStyle: {
@@ -387,7 +414,7 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
-        TabComponent: {screen: component.TabComponent,
+        TabComponent: {screen: RNElementComponent.TabComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'Tab',
                 headerStyle: {
@@ -399,7 +426,7 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
-        TileComponent: {screen: component.TileComponent,
+        TileComponent: {screen: RNElementComponent.TileComponent,
             navigationOptions: ({ navigation }) => ({
                 title: 'Tile',
                 headerStyle: {

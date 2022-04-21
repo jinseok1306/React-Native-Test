@@ -3,7 +3,7 @@ import { View, StyleSheet, StatusBar, ScrollView, Text } from 'react-native';
 import { NavigationService } from '../../common'; 
 import { Button } from '@rneui/themed';
 
-const CoreMenu = () => {
+const RNElementMenu = () => {
     return (
         <View style={styles.container}>
             <StatusBar barStyle="dark-content" />              
@@ -393,4 +393,4 @@ const styles = StyleSheet.create({
 });
 
 
-export default CoreMenu;  
+export default RNElementMenu;  

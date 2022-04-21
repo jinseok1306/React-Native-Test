@@ -73,6 +73,21 @@ const Menu = () => {
                     })}
                     style={{
                         justifyContent: 'flex-end',
+                        backgroundColor: 'rgba(199, 43, 98, 1)',
+                        padding: 10,
+                        marginTop: 10,
+                        borderRadius: 30,
+                        width:220,
+                    }}>
+                    <Text style={{fontSize: 20, textAlign: 'center', color: 'white'}}>Core Components</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+                    onPress={()=> NavigationService.navigate('RNElementMenu', {
+                        screen: 'RNElementMenu',
+                        info: 'information',                            
+                    })}
+                    style={{
+                        justifyContent: 'flex-end',
                         backgroundColor: 'rgb(46,117,223)',
                         padding: 10,
                         marginTop: 10,

@@ -1,4 +1,4 @@
-import CoreMenu from './menu';
+import RNElementMenu from './menu';
 import BottomSheetComponent from './BottomSheetComponent';
 import ButtonComponent from './ButtonComponent';
 import ButtonGroupComponent from './ButtonGroupComponent';
@@ -28,7 +28,7 @@ import TabComponent  from './TabComponent';
 import TileComponent from './TileComponent';
 
 export {
-    CoreMenu, 
+    RNElementMenu, 
     BottomSheetComponent, 
     ButtonComponent, 
     ButtonGroupComponent,
