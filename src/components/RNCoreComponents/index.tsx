@@ -10,6 +10,7 @@ import PressableComponent from './PressableComponent';
 import RefreshControlComponent from './RefreshControlComponent';
 import ScrollViewComponent from './ScrollViewComponent';
 import SectionListComponent from './SectionListComponent';
+import StatusBarComponent from './StatusBarComponent';
 
 export {
     RNCoreMenu,
@@ -23,5 +24,6 @@ export {
     PressableComponent,
     RefreshControlComponent,
     ScrollViewComponent,
-    SectionListComponent
+    SectionListComponent,
+    StatusBarComponent
 };
