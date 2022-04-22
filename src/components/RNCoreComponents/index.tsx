@@ -15,6 +15,7 @@ import SwitchComponent from './SwitchComponent';
 import TextComponent from './TextComponent';
 import TextInputComponent from './TextInputComponent';
 import TouchableHighlightComponent from './TouchableHighlightComponent';
+import TouchableOpacityComponent from './TouchableOpacityComponent';
 
 export {
     RNCoreMenu,
@@ -33,5 +34,6 @@ export {
     SwitchComponent,
     TextComponent,
     TextInputComponent,
-    TouchableHighlightComponent
+    TouchableHighlightComponent,
+    TouchableOpacityComponent
 };
