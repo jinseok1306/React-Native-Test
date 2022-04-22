@@ -13,6 +13,7 @@ import SectionListComponent from './SectionListComponent';
 import StatusBarComponent from './StatusBarComponent';
 import SwitchComponent from './SwitchComponent';
 import TextComponent from './TextComponent';
+import TextInputComponent from './TextInputComponent';
 
 export {
     RNCoreMenu,
@@ -29,5 +30,6 @@ export {
     SectionListComponent,
     StatusBarComponent,
     SwitchComponent,
-    TextComponent
+    TextComponent,
+    TextInputComponent
 };
