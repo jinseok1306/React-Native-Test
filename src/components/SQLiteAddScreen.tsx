@@ -3,7 +3,6 @@ import { View, Text, StyleSheet, StatusBar, ScrollView, KeyboardAvoidingView } f
 import { Input } from '@rneui/themed';
 import Icon from 'react-native-vector-icons/Ionicons';
 import { Button } from '@rneui/themed';
-import ValidationComponent from 'react-native-form-validator';
 
 const SQLiteAddScreen = () => {    
     const [name, setName] = React.useState("");
@@ -18,7 +17,7 @@ const SQLiteAddScreen = () => {
                     behavior={Platform.OS === "ios" ? "padding" : "height"}
                     style={styles.container}
                 >
-                    <Text>{"\n"}</Text>                 
+                    <Text>{"\n"}</Text>                      
                     <Input
                         placeholder='이름을 입력해주세요. '
                         leftIcon={
@@ -28,7 +27,7 @@ const SQLiteAddScreen = () => {
                                 color='gray'
                             />
                         }
-                        onChangeText={name => setName(name)}
+                        onChange={(name) => setName(name)}
                         value={name}
                     />
                     <Input
@@ -42,7 +41,8 @@ const SQLiteAddScreen = () => {
                         }
                         onChangeText={email => setEmail(email)}
                         value={email}
-                    />
+                    />                                          
+                    
                     <Input
                         placeholder='이미지 주소를 입력해주세요. '
                         leftIcon={
@@ -61,7 +61,7 @@ const SQLiteAddScreen = () => {
                         title="Save"
                         buttonStyle={{
                             backgroundColor: 'rgba(78, 116, 289, 1)',
-                            borderRadius: 10,
+                            borderRadius: 10,                            
                         }}
                         containerStyle={{
                             width: 150,
