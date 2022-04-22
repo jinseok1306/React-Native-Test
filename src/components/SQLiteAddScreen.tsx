@@ -3,15 +3,12 @@ import { View, Text, StyleSheet, StatusBar, ScrollView, KeyboardAvoidingView } f
 import { Input } from '@rneui/themed';
 import Icon from 'react-native-vector-icons/Ionicons';
 import { Button } from '@rneui/themed';
+import ValidationComponent from 'react-native-form-validator';
 
 const SQLiteAddScreen = () => {    
     const [name, setName] = React.useState("");
     const [email, setEmail] = React.useState("");
     const [link, setLink] = React.useState("");
-
-    const hasErrors = () => {
-        return !email.includes('@');
-    };
 
     return (
         <View style={styles.container}>
