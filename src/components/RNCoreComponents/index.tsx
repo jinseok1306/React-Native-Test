@@ -17,6 +17,7 @@ import TextInputComponent from './TextInputComponent';
 import TouchableHighlightComponent from './TouchableHighlightComponent';
 import TouchableOpacityComponent from './TouchableOpacityComponent';
 import TouchableWithoutFeedbackComponent from './TouchableWithoutFeedbackComponent';
+import ViewComponent from './ViewComponent';
 
 export {
     RNCoreMenu,
@@ -37,5 +38,6 @@ export {
     TextInputComponent,
     TouchableHighlightComponent,
     TouchableOpacityComponent,
-    TouchableWithoutFeedbackComponent
+    TouchableWithoutFeedbackComponent,
+    ViewComponent
 };
