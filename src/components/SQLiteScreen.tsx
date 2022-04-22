@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
+import { SpeedDial, PricingCard } from '@rneui/themed';
 import { View, Text, ActivityIndicator, StyleSheet, StatusBar, ScrollView } from 'react-native';
 import SQLite from 'react-native-sqlite-storage';
+import { NavigationService } from '../common';
 import {    
     ListItem,
     Avatar,
@@ -17,6 +19,7 @@ let users: any[] = [];
 
 const SQLiteScreen = () => {
     const [loading, setLoading] = useState(false);
+    const [open, setOpen] = React.useState(false);
 
     useEffect(() => {
         dataSearch();
@@ -94,6 +97,27 @@ const SQLiteScreen = () => {
                     ))}
                 </View>                                    
             </ScrollView>
+            <SpeedDial
+                isOpen={open}
+                icon={{ name: 'edit', color: '#fff' }}
+                openIcon={{ name: 'close', color: '#fff' }}
+                onOpen={() => setOpen(!open)}
+                onClose={() => setOpen(!open)}
+            >
+                <SpeedDial.Action
+                    icon={{ name: 'add', color: '#fff' }}
+                    title="Add"
+                    onPress={()=> NavigationService.navigate('SQLiteAddScreen', {
+                        screen: 'SQLiteAddScreen',
+                        info: 'information'
+                    })}
+                />
+                <SpeedDial.Action
+                    icon={{ name: 'delete', color: '#fff' }}
+                    title="Delete"
+                    onPress={() => console.log('Delete Something')}
+                />
+            </SpeedDial>  
         </View>
     );
 }

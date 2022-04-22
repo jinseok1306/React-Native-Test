@@ -7,6 +7,7 @@ import MapList from './MapList';
 import SplashScreen from './SplashScreen';
 import ReduxScreen from './ReduxScreen';
 import SQLiteScreen from './SQLiteScreen';
+import SQLiteAddScreen from './SQLiteAddScreen';
 import * as RNElementComponent  from './RNElementComponents';
 import * as RNCoreCompont from './RNCoreComponents';
 
@@ -65,6 +66,19 @@ const AuthStack = createStackNavigator(
         SQLiteScreen: {screen: SQLiteScreen,
             navigationOptions: ({ navigation }) => ({
                 title: 'SQLite 예제',
+                headerStyle: {
+                    backgroundColor: 'rgb(0,150,0)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+                headerTitleAlign: 'center', 
+            }),
+        },  
+        SQLiteAddScreen: {screen: SQLiteAddScreen,
+            navigationOptions: ({ navigation }) => ({
+                title: 'SQLite Add',
                 headerStyle: {
                     backgroundColor: 'rgb(0,150,0)',                        
                 },              
