@@ -819,6 +819,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         },
+        NBCheckBoxComponent: {screen: RNNativeBaseComponent.NBCheckBoxComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'CheckBox',
+                headerStyle: {
+                    backgroundColor: 'rgb(29,36,102)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        },
     },
     {
         initialRouteName: 'Menu'

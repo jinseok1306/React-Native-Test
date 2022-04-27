@@ -9,6 +9,7 @@ import NBVStackComponent from "./Layout/VStackComponent";
 import NBZStackComponent from "./Layout/ZStackComponent";
 import NBButtonComponent from "./Forms/ButtonComponent";
 import NBPressableComponent from "./Forms/PressableComponent";
+import NBCheckBoxComponent from "./Forms/CheckBoxComponent";
 
 export {
     RNNativeBaseMenu,
@@ -22,4 +23,5 @@ export {
     NBZStackComponent,
     NBButtonComponent,
     NBPressableComponent,
+    NBCheckBoxComponent
 };
