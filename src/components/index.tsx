@@ -807,6 +807,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         },
+        NBPressableComponent: {screen: RNNativeBaseComponent.NBPressableComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Pressable',
+                headerStyle: {
+                    backgroundColor: 'rgb(29,36,102)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        },
     },
     {
         initialRouteName: 'Menu'

@@ -8,6 +8,7 @@ import NBStackComponent from "./Layout/StackComponent";
 import NBVStackComponent from "./Layout/VStackComponent";
 import NBZStackComponent from "./Layout/ZStackComponent";
 import NBButtonComponent from "./Forms/ButtonComponent";
+import NBPressableComponent from "./Forms/PressableComponent";
 
 export {
     RNNativeBaseMenu,
@@ -19,5 +20,6 @@ export {
     NBStackComponent,
     NBVStackComponent,
     NBZStackComponent,
-    NBButtonComponent
+    NBButtonComponent,
+    NBPressableComponent,
 };
