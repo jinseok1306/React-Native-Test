@@ -831,6 +831,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         },
+        NBFormControlComponent: {screen: RNNativeBaseComponent.NBFormControlComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'FormControl',
+                headerStyle: {
+                    backgroundColor: 'rgb(29,36,102)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        },
     },
     {
         initialRouteName: 'Menu'
