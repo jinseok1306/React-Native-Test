@@ -8,11 +8,11 @@ const RNNativeBaseMenu = () => {
         <View style={styles.container}>
             <StatusBar barStyle="dark-content" />              
             <ScrollView>                                     
-            <Text style={styles.subHeader}>MultiLine</Text>
+            <Text style={styles.subHeader}>LAYOUT</Text>
             <Divider />
                 <View style={styles.buttonsContainer}>                                                   
                     <Button
-                        title={'AirbnbRating'}
+                        title={'Box'}
                         buttonStyle={{ backgroundColor: 'rgb(29,36,102)' }}
                         containerStyle={{
                             width: 250,
@@ -20,8 +20,8 @@ const RNNativeBaseMenu = () => {
                             marginVertical: 10,
                             borderRadius: 10,                            
                         }}
-                        onPress={()=> NavigationService.navigate('AirbnbRatingComponent', {
-                            screen: 'AirbnbRatingComponent',
+                        onPress={()=> NavigationService.navigate('NBBoxComponent', {
+                            screen: 'NBBoxComponent',
                             info: 'information',                            
                         })}
                     />                    
