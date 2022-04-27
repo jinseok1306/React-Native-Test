@@ -36,8 +36,7 @@ const NBBoxComponent = () => {
                                 </Box>
                             </Box>
                         </Center>      
-                        <Text>{"\n"}</Text>  
-                        <Divider />    
+                        <Text>{"\n"}</Text>                          
                         <Text style={styles.subHeader}>Composition</Text>
                         <Divider />            
                         <Text>{"\n"}</Text>    
@@ -97,9 +96,7 @@ const NBBoxComponent = () => {
                                 </Stack>
                             </Box>
                         </Box>
-                    </Center>  
-                    <Text>{"\n"}</Text>  
-                    <Divider />                              
+                    </Center>                                                               
                     <Text>{"\n"}</Text>      
                     <Text style={styles.subHeader}>Basic(With Ref)</Text>
                     <Divider />            

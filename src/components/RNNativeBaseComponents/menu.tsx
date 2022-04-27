@@ -8,8 +8,8 @@ const RNNativeBaseMenu = () => {
         <View style={styles.container}>
             <StatusBar barStyle="dark-content" />              
             <ScrollView>                                     
-            <Text style={styles.subHeader}>LAYOUT</Text>
-            <Divider />
+                <Text style={styles.subHeader}>LAYOUT</Text>
+                <Divider />
                 <View style={styles.buttonsContainer}>                                                   
                     <Button
                         title={'Box'}
@@ -122,8 +122,26 @@ const RNNativeBaseMenu = () => {
                             screen: 'NBZStackComponent',
                             info: 'information',                            
                         })}
+                    />                    
+                </View>     
+                <Text style={styles.subHeader}>FORMS</Text>
+                <Divider />  
+                <View style={styles.buttonsContainer}>
+                    <Button
+                        title={'Button'}
+                        buttonStyle={{ backgroundColor: 'rgb(29,36,102)' }}
+                        containerStyle={{
+                            width: 250,
+                            marginHorizontal: 50,
+                            marginVertical: 10,
+                            borderRadius: 10,                            
+                        }}
+                        onPress={()=> NavigationService.navigate('NBButtonComponent', {
+                            screen: 'NBButtonComponent',
+                            info: 'information',                            
+                        })}
                     />
-                </View>                                                                                                                                                                          
+                </View>                                                                                                                                                                   
             </ScrollView>            
         </View>
     );

@@ -25,8 +25,7 @@ const NBCenterComponent = () => {
                             This is the Center
                         </Center>
                     </Center>                     
-                    <Text>{"\n"}</Text>   
-                    <Divider />     
+                    <Text>{"\n"}</Text>                       
                     <Text style={styles.subHeader}>Icon frames</Text>
                     <Divider />            
                     <Text>{"\n"}</Text>   
@@ -44,8 +43,7 @@ const NBCenterComponent = () => {
                             </Box>
                         </Center>
                     </HStack>      
-                    <Text>{"\n"}</Text>   
-                    <Divider />     
+                    <Text>{"\n"}</Text>                       
                     <Text style={styles.subHeader}>Square and Circle</Text>
                     <Divider />            
                     <Text>{"\n"}</Text>      

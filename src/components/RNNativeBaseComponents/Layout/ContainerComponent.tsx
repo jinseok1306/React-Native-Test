@@ -10,6 +10,7 @@ const NBContainerComponent = () => {
             <SafeAreaView>
                 <StatusBar barStyle="dark-content" />     
                 <ScrollView>
+                    <Text>{"\n"}</Text>
                     <Center>
                         <Container>
                             <Heading>

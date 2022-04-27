@@ -20,8 +20,7 @@ const NBZStackComponent = () => {
                             <Box bg="primary.300" mt="10" ml="10" size="20" rounded="lg" shadow={7} />
                             </ZStack>
                         </Box>
-                    </Center>  
-                    <Divider />                                
+                    </Center>                                                  
                     <Text style={styles.subHeader}>Item Centered</Text>
                     <Divider />                                
                     <Center h="96">
