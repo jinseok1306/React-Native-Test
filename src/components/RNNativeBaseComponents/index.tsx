@@ -4,6 +4,7 @@ import NBCenterComponent from "./Layout/CenterComponent";
 import NBContainerComponent from "./Layout/ContainerComponent";
 import NBFlexComponent from "./Layout/FlexComponent";
 import NBHStackComponent from "./Layout/HStackComponent";
+import NBStackComponent from "./Layout/StackComponent";
 
 export {
     RNNativeBaseMenu,
@@ -11,5 +12,6 @@ export {
     NBCenterComponent,
     NBContainerComponent,
     NBFlexComponent,
-    NBHStackComponent
+    NBHStackComponent,
+    NBStackComponent,
 };
