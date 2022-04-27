@@ -10,6 +10,7 @@ import SQLiteScreen from './SQLiteScreen';
 import SQLiteAddScreen from './SQLiteAddScreen';
 import * as RNElementComponent  from './RNElementComponents';
 import * as RNCoreCompont from './RNCoreComponents';
+import * as RNNativeBaseComponent from './RNNativeBaseComponents';
 
 const AuthStack = createStackNavigator(
     {
@@ -686,6 +687,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
+        RNNativeBaseMenu: {screen: RNNativeBaseComponent.RNNativeBaseMenu,
+            navigationOptions: ({ navigation }) => ({
+                title: 'NativeBase',
+                headerStyle: {
+                    backgroundColor: 'rgb(29,36,102)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        },
     },
     {
         initialRouteName: 'Menu'
