@@ -783,6 +783,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         },
+        NBZStackComponent: {screen: RNNativeBaseComponent.NBZStackComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'ZStack',
+                headerStyle: {
+                    backgroundColor: 'rgb(29,36,102)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        },
     },
     {
         initialRouteName: 'Menu'

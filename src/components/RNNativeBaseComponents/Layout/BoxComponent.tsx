@@ -21,7 +21,7 @@ const NBBoxComponent = () => {
             <SafeAreaView>
                 <StatusBar barStyle="dark-content" />     
                 <ScrollView>
-                    <Text style={styles.subHeader}>Basic</Text>
+                        <Text style={styles.subHeader}>Basic</Text>
                         <Divider />            
                         <Text>{"\n"}</Text>        
                         <Center>
