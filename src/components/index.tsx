@@ -843,6 +843,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         },
+        NBIconButtonComponent: {screen: RNNativeBaseComponent.NBIconButtonComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'IconButton',
+                headerStyle: {
+                    backgroundColor: 'rgb(29,36,102)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        },
     },
     {
         initialRouteName: 'Menu'

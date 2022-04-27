@@ -170,7 +170,7 @@ const RNNativeBaseMenu = () => {
                         })}
                     />
                     <Button
-                        title={'FormControl'}
+                        title={'IconButton'}
                         buttonStyle={{ backgroundColor: 'rgb(29,36,102)' }}
                         containerStyle={{
                             width: 250,
@@ -178,8 +178,8 @@ const RNNativeBaseMenu = () => {
                             marginVertical: 10,
                             borderRadius: 10,                            
                         }}
-                        onPress={()=> NavigationService.navigate('NBFormControlComponent', {
-                            screen: 'NBFormControlComponent',
+                        onPress={()=> NavigationService.navigate('NBIconButtonComponent', {
+                            screen: 'NBIconButtonComponent',
                             info: 'information',                            
                         })}
                     />

@@ -11,6 +11,7 @@ import NBButtonComponent from "./Forms/ButtonComponent";
 import NBPressableComponent from "./Forms/PressableComponent";
 import NBCheckBoxComponent from "./Forms/CheckBoxComponent";
 import NBFormControlComponent from "./Forms/FormControlComponent";
+import NBIconButtonComponent from "./Forms/IconButtonComponent";
 
 export {
     RNNativeBaseMenu,
@@ -25,5 +26,6 @@ export {
     NBButtonComponent,
     NBPressableComponent,
     NBCheckBoxComponent,
-    NBFormControlComponent
+    NBFormControlComponent,
+    NBIconButtonComponent
 };
