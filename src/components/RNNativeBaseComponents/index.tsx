@@ -21,6 +21,7 @@ import NBTextAreaComponent from "./Forms/TextAreaComponent";
 import NBAlertComponent from "./Feedback/AlertComponent";
 import NBProgressComponent from "./Feedback/ProgressComponent";
 import NBSkeletonComponent from "./Feedback/SkeletonComponent";
+import NBSpinnerComponent from "./Feedback/SpinnerComponent";
 
 export {
     RNNativeBaseMenu,
@@ -45,5 +46,6 @@ export {
     NBTextAreaComponent,
     NBAlertComponent,
     NBProgressComponent,
-    NBSkeletonComponent
+    NBSkeletonComponent,
+    NBSpinnerComponent
 };

@@ -963,6 +963,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         },
+        NBSpinnerComponent: {screen: RNNativeBaseComponent.NBSpinnerComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Spinner',
+                headerStyle: {
+                    backgroundColor: 'rgb(29,36,102)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        },
     },
     {
         initialRouteName: 'Menu'
