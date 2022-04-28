@@ -359,6 +359,20 @@ const RNNativeBaseMenu = () => {
                                 info: 'information',                            
                             })}
                     />
+                    <Button
+                            title={'Heading'}
+                            buttonStyle={{ backgroundColor: 'rgb(29,36,102)' }}
+                            containerStyle={{
+                                width: 250,
+                                marginHorizontal: 50,
+                                marginVertical: 10,
+                                borderRadius: 10,                            
+                            }}
+                            onPress={()=> NavigationService.navigate('NBHeadingComponent', {
+                                screen: 'NBHeadingComponent',
+                                info: 'information',                            
+                            })}
+                    />
                 </View>                                                                                                                                                    
             </ScrollView>            
         </View>
