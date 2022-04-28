@@ -5,7 +5,7 @@ import { NativeBaseProvider, Text, Button, Center, Toast, VStack, Box, Stack, Al
 import Icon from 'react-native-vector-icons/Ionicons';
 
 const NBToastComponent = () => {        
-
+    const id = "test-toast";
     
     const toastIdRef = React.useRef();
   
@@ -193,6 +193,34 @@ const NBToastComponent = () => {
                             </Button>)}
                         </VStack>
                     </Center>
+                    <Text>{"\n"}</Text>    
+                    <Text style={styles.subHeader}>Preventing Duplicate Toasts</Text>
+                    <Divider />            
+                    <Text>{"\n"}</Text> 
+                    <Center>
+                        <Button onPress={() => {
+                            if (!Toast.isActive(id)) {
+                                Toast.show({
+                                id,
+                                title: "Hey! You can't create a duplicate toast"
+                                });
+                            }
+                        }}>
+                            Click me!
+                        </Button>
+                    </Center>
+                    <Text>{"\n"}</Text>    
+                    <Text style={styles.subHeader}>Standalone Toast</Text>
+                    <Divider />            
+                    <Text>{"\n"}</Text> 
+                    <Center>
+                        <Button onPress={() => Toast.show({
+                            title: "Hello world"
+                        })}>
+                            Show Toast
+                        </Button>
+                    </Center>
+                    <Text>{"\n"}</Text> 
                 </ScrollView>                                                         
             </SafeAreaView>   
         </NativeBaseProvider>                                                                                                                      
