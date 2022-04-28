@@ -903,6 +903,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         },
+        NBSwitchComponent: {screen: RNNativeBaseComponent.NBSwitchComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Switch',
+                headerStyle: {
+                    backgroundColor: 'rgb(29,36,102)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        },
     },
     {
         initialRouteName: 'Menu'

@@ -16,6 +16,7 @@ import NBInputComponent from "./Forms/InputComponent";
 import NBLinkComponent from "./Forms/LinkComponent";
 import NBRadioComponent from "./Forms/RadioComponent";
 import NBSelectComponent from "./Forms/SelectCompoment";
+import NBSwitchComponent from "./Forms/SwitchComponent";
 
 export {
     RNNativeBaseMenu,
@@ -35,5 +36,6 @@ export {
     NBInputComponent,
     NBLinkComponent,
     NBRadioComponent,
-    NBSelectComponent
+    NBSelectComponent,
+    NBSwitchComponent
 };

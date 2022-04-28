@@ -239,6 +239,20 @@ const RNNativeBaseMenu = () => {
                             info: 'information',                            
                         })}
                     />
+                    <Button
+                        title={'Switch'}
+                        buttonStyle={{ backgroundColor: 'rgb(29,36,102)' }}
+                        containerStyle={{
+                            width: 250,
+                            marginHorizontal: 50,
+                            marginVertical: 10,
+                            borderRadius: 10,                            
+                        }}
+                        onPress={()=> NavigationService.navigate('NBSwitchComponent', {
+                            screen: 'NBSwitchComponent',
+                            info: 'information',                            
+                        })}
+                    />
                 </View>                                                                                                                                                                   
             </ScrollView>            
         </View>
