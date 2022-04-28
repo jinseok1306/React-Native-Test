@@ -327,6 +327,20 @@ const RNNativeBaseMenu = () => {
                                 info: 'information',                            
                             })}
                     />
+                    <Button
+                            title={'Toast'}
+                            buttonStyle={{ backgroundColor: 'rgb(29,36,102)' }}
+                            containerStyle={{
+                                width: 250,
+                                marginHorizontal: 50,
+                                marginVertical: 10,
+                                borderRadius: 10,                            
+                            }}
+                            onPress={()=> NavigationService.navigate('NBToastComponent', {
+                                screen: 'NBToastComponent',
+                                info: 'information',                            
+                            })}
+                    />
                 </View>                                                                                                                                                            
             </ScrollView>            
         </View>

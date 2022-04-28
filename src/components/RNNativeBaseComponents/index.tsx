@@ -22,6 +22,7 @@ import NBAlertComponent from "./Feedback/AlertComponent";
 import NBProgressComponent from "./Feedback/ProgressComponent";
 import NBSkeletonComponent from "./Feedback/SkeletonComponent";
 import NBSpinnerComponent from "./Feedback/SpinnerComponent";
+import NBToastComponent from "./Feedback/ToastComponent";
 
 export {
     RNNativeBaseMenu,
@@ -47,5 +48,6 @@ export {
     NBAlertComponent,
     NBProgressComponent,
     NBSkeletonComponent,
-    NBSpinnerComponent
+    NBSpinnerComponent,
+    NBToastComponent
 };
