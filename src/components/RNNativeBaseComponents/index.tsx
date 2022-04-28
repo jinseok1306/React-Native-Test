@@ -18,6 +18,7 @@ import NBRadioComponent from "./Forms/RadioComponent";
 import NBSelectComponent from "./Forms/SelectCompoment";
 import NBSwitchComponent from "./Forms/SwitchComponent";
 import NBTextAreaComponent from "./Forms/TextAreaComponent";
+import NBAlertComponent from "./Feedback/AlertComponent";
 
 export {
     RNNativeBaseMenu,
@@ -39,5 +40,6 @@ export {
     NBRadioComponent,
     NBSelectComponent,
     NBSwitchComponent,
-    NBTextAreaComponent
+    NBTextAreaComponent,
+    NBAlertComponent
 };
