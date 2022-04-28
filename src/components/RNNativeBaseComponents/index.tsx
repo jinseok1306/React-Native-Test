@@ -25,6 +25,7 @@ import NBSpinnerComponent from "./Feedback/SpinnerComponent";
 import NBToastComponent from "./Feedback/ToastComponent";
 import NBTextComponent from "./Typography/TextComponent";
 import NBHeadingComponent from "./Typography/HeadingComponent";
+import NBAlertDialogComponent from "./Overlay/AlertDialogComponent";
 
 export {
     RNNativeBaseMenu,
@@ -54,4 +55,5 @@ export {
     NBToastComponent,
     NBTextComponent,
     NBHeadingComponent,
+    NBAlertDialogComponent
 };

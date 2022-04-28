@@ -373,7 +373,25 @@ const RNNativeBaseMenu = () => {
                                 info: 'information',                            
                             })}
                     />
-                </View>                                                                                                                                                    
+                </View>         
+                <Text style={styles.subHeader}>OVERLAY</Text>
+                <Divider />  
+                <View style={styles.buttonsContainer}>
+                    <Button
+                            title={'AlertDialog'}
+                            buttonStyle={{ backgroundColor: 'rgb(29,36,102)' }}
+                            containerStyle={{
+                                width: 250,
+                                marginHorizontal: 50,
+                                marginVertical: 10,
+                                borderRadius: 10,                            
+                            }}
+                            onPress={()=> NavigationService.navigate('NBAlertDialogComponent', {
+                                screen: 'NBAlertDialogComponent',
+                                info: 'information',                            
+                            })}
+                    />
+                </View>                                                                                                                                           
             </ScrollView>            
         </View>
     );
