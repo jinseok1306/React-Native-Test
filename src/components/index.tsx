@@ -879,6 +879,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         },
+        NBRadioComponent: {screen: RNNativeBaseComponent.NBRadioComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Radio',
+                headerStyle: {
+                    backgroundColor: 'rgb(29,36,102)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        },
     },
     {
         initialRouteName: 'Menu'
