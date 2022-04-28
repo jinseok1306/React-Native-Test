@@ -285,6 +285,20 @@ const RNNativeBaseMenu = () => {
                                 info: 'information',                            
                             })}
                     />
+                    <Button
+                            title={'Progress'}
+                            buttonStyle={{ backgroundColor: 'rgb(29,36,102)' }}
+                            containerStyle={{
+                                width: 250,
+                                marginHorizontal: 50,
+                                marginVertical: 10,
+                                borderRadius: 10,                            
+                            }}
+                            onPress={()=> NavigationService.navigate('NBProgressComponent', {
+                                screen: 'NBProgressComponent',
+                                info: 'information',                            
+                            })}
+                    />
                 </View>                                                                                                                                                            
             </ScrollView>            
         </View>

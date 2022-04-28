@@ -19,6 +19,7 @@ import NBSelectComponent from "./Forms/SelectCompoment";
 import NBSwitchComponent from "./Forms/SwitchComponent";
 import NBTextAreaComponent from "./Forms/TextAreaComponent";
 import NBAlertComponent from "./Feedback/AlertComponent";
+import NBProgressComponent from "./Feedback/ProgressComponent";
 
 export {
     RNNativeBaseMenu,
@@ -41,5 +42,6 @@ export {
     NBSelectComponent,
     NBSwitchComponent,
     NBTextAreaComponent,
-    NBAlertComponent
+    NBAlertComponent,
+    NBProgressComponent
 };

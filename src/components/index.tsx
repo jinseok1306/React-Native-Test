@@ -939,6 +939,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         },
+        NBProgressComponent: {screen: RNNativeBaseComponent.NBProgressComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Progress',
+                headerStyle: {
+                    backgroundColor: 'rgb(29,36,102)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        },
     },
     {
         initialRouteName: 'Menu'
