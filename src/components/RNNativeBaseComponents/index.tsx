@@ -28,6 +28,7 @@ import NBHeadingComponent from "./Typography/HeadingComponent";
 import NBAlertDialogComponent from "./Overlay/AlertDialogComponent";
 import NBMenuComponent from "./Overlay/MenuComponent";
 import NBModalComponent from "./Overlay/ModalComponent";
+import NBPopoverComponent from "./Overlay/PopoverComponent";
 
 export {
     RNNativeBaseMenu,
@@ -59,5 +60,6 @@ export {
     NBHeadingComponent,
     NBAlertDialogComponent,
     NBMenuComponent,
-    NBModalComponent
+    NBModalComponent,
+    NBPopoverComponent
 };
