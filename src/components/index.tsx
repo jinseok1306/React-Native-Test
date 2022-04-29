@@ -1059,6 +1059,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         },
+        NBActionSheetComponent: {screen: RNNativeBaseComponent.NBActionSheetComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'ActionSheet',
+                headerStyle: {
+                    backgroundColor: 'rgb(29,36,102)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        },
     },
     {
         initialRouteName: 'Menu'

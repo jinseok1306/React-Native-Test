@@ -433,7 +433,25 @@ const RNNativeBaseMenu = () => {
                                 info: 'information',                            
                             })}
                     />
-                </View>                                                                                                                                           
+                </View>    
+                <Text style={styles.subHeader}>DISCLOSURE</Text>
+                <Divider />  
+                <View style={styles.buttonsContainer}>
+                    <Button
+                            title={'ActionSheet'}
+                            buttonStyle={{ backgroundColor: 'rgb(29,36,102)' }}
+                            containerStyle={{
+                                width: 250,
+                                marginHorizontal: 50,
+                                marginVertical: 10,
+                                borderRadius: 10,                            
+                            }}
+                            onPress={()=> NavigationService.navigate('NBActionSheetComponent', {
+                                screen: 'NBActionSheetComponent',
+                                info: 'information',                            
+                            })}
+                        />
+                </View>                                                                                                                                       
             </ScrollView>            
         </View>
     );
