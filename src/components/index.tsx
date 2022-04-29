@@ -1035,6 +1035,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         },
+        NBModalComponent: {screen: RNNativeBaseComponent.NBModalComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Modal',
+                headerStyle: {
+                    backgroundColor: 'rgb(29,36,102)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        },
     },
     {
         initialRouteName: 'Menu'
