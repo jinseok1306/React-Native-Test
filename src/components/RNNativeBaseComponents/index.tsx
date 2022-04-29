@@ -26,6 +26,7 @@ import NBToastComponent from "./Feedback/ToastComponent";
 import NBTextComponent from "./Typography/TextComponent";
 import NBHeadingComponent from "./Typography/HeadingComponent";
 import NBAlertDialogComponent from "./Overlay/AlertDialogComponent";
+import NBMenuComponent from "./Overlay/MenuComponent";
 
 export {
     RNNativeBaseMenu,
@@ -55,5 +56,6 @@ export {
     NBToastComponent,
     NBTextComponent,
     NBHeadingComponent,
-    NBAlertDialogComponent
+    NBAlertDialogComponent,
+    NBMenuComponent
 };
