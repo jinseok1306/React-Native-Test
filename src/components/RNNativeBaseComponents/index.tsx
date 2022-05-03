@@ -33,6 +33,7 @@ import NBActionSheetComponent from "./Disclosure/ActionSheetComponent";
 import NBAvatarComponent from "./MediaAndIcons/AvatarComponent";
 import NBImageComponent from "./MediaAndIcons/ImageComponent";
 import NBPresenceTransitionComponent from "./Transition/PresenceTransitionComponent";
+import NBSlideComponent from "./Transition/SlideComponent";
 
 export {
     RNNativeBaseMenu,
@@ -69,5 +70,6 @@ export {
     NBActionSheetComponent,
     NBAvatarComponent,
     NBImageComponent,
-    NBPresenceTransitionComponent
+    NBPresenceTransitionComponent,
+    NBSlideComponent
 };

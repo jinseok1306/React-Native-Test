@@ -1107,6 +1107,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         },
+        NBSlideComponent: {screen: RNNativeBaseComponent.NBSlideComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Slide',
+                headerStyle: {
+                    backgroundColor: 'rgb(29,36,102)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        },
     },
     {
         initialRouteName: 'Menu'
