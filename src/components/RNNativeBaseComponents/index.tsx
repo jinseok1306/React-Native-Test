@@ -31,6 +31,7 @@ import NBModalComponent from "./Overlay/ModalComponent";
 import NBPopoverComponent from "./Overlay/PopoverComponent";
 import NBActionSheetComponent from "./Disclosure/ActionSheetComponent";
 import NBAvatarComponent from "./MediaAndIcons/AvatarComponent";
+import NBImageComponent from "./MediaAndIcons/ImageComponent";
 
 export {
     RNNativeBaseMenu,
@@ -65,5 +66,6 @@ export {
     NBModalComponent,
     NBPopoverComponent,
     NBActionSheetComponent,
-    NBAvatarComponent
+    NBAvatarComponent,
+    NBImageComponent
 };
