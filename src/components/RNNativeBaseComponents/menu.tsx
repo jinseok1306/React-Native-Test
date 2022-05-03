@@ -528,7 +528,12 @@ const RNNativeBaseMenu = () => {
                                 screen: 'NBStaggerComponent',
                                 info: 'information',                            
                             })}
-                    />   
+                    />                       
+                </View>
+                <Text style={styles.subHeader}>OTHERS</Text>
+                <Divider />  
+                <View style={styles.buttonsContainer}>
+                    
                 </View>                                                                                                                 
             </ScrollView>            
         </View>
