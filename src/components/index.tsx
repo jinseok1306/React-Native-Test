@@ -1095,6 +1095,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         },
+        NBPresenceTransitionComponent: {screen: RNNativeBaseComponent.NBPresenceTransitionComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'PresenceTransition',
+                headerStyle: {
+                    backgroundColor: 'rgb(29,36,102)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        },
     },
     {
         initialRouteName: 'Menu'

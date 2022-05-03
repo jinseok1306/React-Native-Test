@@ -469,8 +469,6 @@ const RNNativeBaseMenu = () => {
                                 info: 'information',                            
                             })}
                     />
-                </View>            
-                <View style={styles.buttonsContainer}>
                     <Button
                             title={'Image'}
                             buttonStyle={{ backgroundColor: 'rgb(29,36,102)' }}
@@ -484,12 +482,25 @@ const RNNativeBaseMenu = () => {
                                 screen: 'NBImageComponent',
                                 info: 'information',                            
                             })}
-                    />
-                </View>      
+                    />                
+                </View>                                                
                 <Text style={styles.subHeader}>TRANSITION</Text>
                 <Divider />  
                 <View style={styles.buttonsContainer}>
-
+                    <Button
+                            title={'PresenceTransition'}
+                            buttonStyle={{ backgroundColor: 'rgb(29,36,102)' }}
+                            containerStyle={{
+                                width: 250,
+                                marginHorizontal: 50,
+                                marginVertical: 10,
+                                borderRadius: 10,                            
+                            }}
+                            onPress={()=> NavigationService.navigate('NBPresenceTransitionComponent', {
+                                screen: 'NBPresenceTransitionComponent',
+                                info: 'information',                            
+                            })}
+                    />    
                 </View>                                                                                                                 
             </ScrollView>            
         </View>
