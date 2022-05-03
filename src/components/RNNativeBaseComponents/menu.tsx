@@ -485,7 +485,12 @@ const RNNativeBaseMenu = () => {
                                 info: 'information',                            
                             })}
                     />
-                </View>                                                                                                                       
+                </View>      
+                <Text style={styles.subHeader}>TRANSITION</Text>
+                <Divider />  
+                <View style={styles.buttonsContainer}>
+
+                </View>                                                                                                                 
             </ScrollView>            
         </View>
     );
