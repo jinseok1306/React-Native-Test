@@ -34,6 +34,7 @@ import NBAvatarComponent from "./MediaAndIcons/AvatarComponent";
 import NBImageComponent from "./MediaAndIcons/ImageComponent";
 import NBPresenceTransitionComponent from "./Transition/PresenceTransitionComponent";
 import NBSlideComponent from "./Transition/SlideComponent";
+import NBStaggerComponent from "./Transition/StaggerComponent";
 
 export {
     RNNativeBaseMenu,
@@ -71,5 +72,6 @@ export {
     NBAvatarComponent,
     NBImageComponent,
     NBPresenceTransitionComponent,
-    NBSlideComponent
+    NBSlideComponent,
+    NBStaggerComponent
 };
