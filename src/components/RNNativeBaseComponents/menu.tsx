@@ -533,7 +533,20 @@ const RNNativeBaseMenu = () => {
                 <Text style={styles.subHeader}>OTHERS</Text>
                 <Divider />  
                 <View style={styles.buttonsContainer}>
-                    
+                    <Button
+                            title={'Fab'}
+                            buttonStyle={{ backgroundColor: 'rgb(29,36,102)' }}
+                            containerStyle={{
+                                width: 250,
+                                marginHorizontal: 50,
+                                marginVertical: 10,
+                                borderRadius: 10,                            
+                            }}
+                            onPress={()=> NavigationService.navigate('NBFabComponent', {
+                                screen: 'NBFabComponent',
+                                info: 'information',                            
+                            })}
+                    />  
                 </View>                                                                                                                 
             </ScrollView>            
         </View>
