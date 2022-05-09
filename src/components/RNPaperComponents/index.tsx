@@ -8,6 +8,7 @@ import BottomNavigationComponent from "./BottomNavigationComponent";
 import ButtonComponent from "./ButtonComponent";
 import CardComponent from "./CardComponent";
 import CheckboxComponent from "./CheckboxComponent";
+import ChipComponent from "./ChipComponent";
 
 export {
     RNPaperMenu,
@@ -19,5 +20,6 @@ export {
     BottomNavigationComponent,
     ButtonComponent,
     CardComponent,
-    CheckboxComponent
+    CheckboxComponent,
+    ChipComponent
 };
