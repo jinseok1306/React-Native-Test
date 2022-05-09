@@ -1240,6 +1240,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
+        PaperCardComponent: {screen: RNPaperComponent.CardComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Card',
+                headerStyle: {
+                    backgroundColor: 'rgb(98,0,238)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        }, 
     },
     {
         initialRouteName: 'Menu'
