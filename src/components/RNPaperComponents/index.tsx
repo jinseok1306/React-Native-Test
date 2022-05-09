@@ -12,6 +12,7 @@ import ChipComponent from "./ChipComponent";
 import DataTableComponent from "./DataTableComponent";
 import DialogComponent from "./DialogComponent";
 import DividerComponent from "./DividerComponent";
+import DrawerComponent from "./DrawerComponent";
 
 export {
     RNPaperMenu,
@@ -27,5 +28,6 @@ export {
     ChipComponent,
     DataTableComponent,
     DialogComponent,
-    DividerComponent
+    DividerComponent,
+    DrawerComponent
 };
