@@ -16,6 +16,7 @@ import DrawerComponent from "./DrawerComponent";
 import FABComponent from "./FABComponent";
 import HelperTextComponent from "./HelperTextComponent";
 import IconButtonComponent from "./IconButtonComponent";
+import ListComponent from "./ListComponent";
 
 export {
     RNPaperMenu,
@@ -35,5 +36,6 @@ export {
     DrawerComponent,
     FABComponent,
     HelperTextComponent,
-    IconButtonComponent
+    IconButtonComponent,
+    ListComponent
 };
