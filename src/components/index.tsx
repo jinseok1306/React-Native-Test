@@ -1300,6 +1300,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         },
+        PaperDividerComponent: {screen: RNPaperComponent.DividerComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Divider',
+                headerStyle: {
+                    backgroundColor: 'rgb(98,0,238)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        },
     },
     {
         initialRouteName: 'Menu'

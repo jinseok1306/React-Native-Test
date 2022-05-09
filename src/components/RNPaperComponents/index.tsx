@@ -11,6 +11,7 @@ import CheckboxComponent from "./CheckboxComponent";
 import ChipComponent from "./ChipComponent";
 import DataTableComponent from "./DataTableComponent";
 import DialogComponent from "./DialogComponent";
+import DividerComponent from "./DividerComponent";
 
 export {
     RNPaperMenu,
@@ -25,5 +26,6 @@ export {
     CheckboxComponent,
     ChipComponent,
     DataTableComponent,
-    DialogComponent
+    DialogComponent,
+    DividerComponent
 };
