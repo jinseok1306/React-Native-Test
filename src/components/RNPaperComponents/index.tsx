@@ -9,6 +9,7 @@ import ButtonComponent from "./ButtonComponent";
 import CardComponent from "./CardComponent";
 import CheckboxComponent from "./CheckboxComponent";
 import ChipComponent from "./ChipComponent";
+import DataTableComponent from "./DataTableComponent";
 
 export {
     RNPaperMenu,
@@ -21,5 +22,6 @@ export {
     ButtonComponent,
     CardComponent,
     CheckboxComponent,
-    ChipComponent
+    ChipComponent,
+    DataTableComponent
 };
