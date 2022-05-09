@@ -5,6 +5,7 @@ import AvatarComponent from "./AvatarComponent";
 import BadgeComponent from "./BadgeComponent";
 import BannerComponent from "./BannerComponent";
 import BottomNavigationComponent from "./BottomNavigationComponent";
+import ButtonComponent from "./ButtonComponent";
 
 export {
     RNPaperMenu,
@@ -13,5 +14,6 @@ export {
     AvatarComponent,
     BadgeComponent,
     BannerComponent,
-    BottomNavigationComponent
+    BottomNavigationComponent,
+    ButtonComponent
 };
