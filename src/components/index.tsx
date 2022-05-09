@@ -1192,6 +1192,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
+        PaperBadgeComponent: {screen: RNPaperComponent.BadgeComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Badge',
+                headerStyle: {
+                    backgroundColor: 'rgb(98,0,238)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        }, 
     },
     {
         initialRouteName: 'Menu'
