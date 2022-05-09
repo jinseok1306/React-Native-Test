@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import { Avatar   } from '@rneui/themed'
 import { View, Text, StyleSheet, StatusBar, ScrollView } from 'react-native';
 import { ActivityIndicator, Colors } from 'react-native-paper';
 
