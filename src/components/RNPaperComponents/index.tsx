@@ -4,6 +4,7 @@ import AppbarComponent from "./AppbarComponent";
 import AvatarComponent from "./AvatarComponent";
 import BadgeComponent from "./BadgeComponent";
 import BannerComponent from "./BannerComponent";
+import BottomNavigationComponent from "./BottomNavigationComponent";
 
 export {
     RNPaperMenu,
@@ -11,5 +12,6 @@ export {
     AppbarComponent,
     AvatarComponent,
     BadgeComponent,
-    BannerComponent
+    BannerComponent,
+    BottomNavigationComponent
 };
