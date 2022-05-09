@@ -111,6 +111,21 @@ const Menu = () => {
                     }}>
                     <Text style={{fontSize: 20, textAlign: 'center', color: 'white'}}>NativeBase</Text>
             </TouchableOpacity>
+            <TouchableOpacity
+                    onPress={()=> NavigationService.navigate('RNPaperMenu', {
+                        screen: 'RNPaperMenu',
+                        info: 'information',                            
+                    })}
+                    style={{
+                        justifyContent: 'flex-end',
+                        backgroundColor: 'rgb(98,0,238)',
+                        padding: 10,
+                        marginTop: 10,
+                        borderRadius: 30,
+                        width:220,
+                    }}>
+                    <Text style={{fontSize: 20, textAlign: 'center', color: 'white'}}>React Native Paper</Text>
+            </TouchableOpacity>
         </View>
     );
 }

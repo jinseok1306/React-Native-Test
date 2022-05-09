@@ -11,6 +11,7 @@ import SQLiteAddScreen from './SQLiteAddScreen';
 import * as RNElementComponent  from './RNElementComponents';
 import * as RNCoreCompont from './RNCoreComponents';
 import * as RNNativeBaseComponent from './RNNativeBaseComponents';
+import * as RNPaperComponent from './RNPaperComponents';
 
 const AuthStack = createStackNavigator(
     {
@@ -1142,7 +1143,31 @@ const AuthStack = createStackNavigator(
                     fontWeight: 'bold',
                 },
             }),
-        },
+        },     
+        RNPaperMenu: {screen: RNPaperComponent.RNPaperMenu,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Menu',
+                headerStyle: {
+                    backgroundColor: 'rgb(98,0,238)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        },    
+        PaperActivityIndicatorComponent: {screen: RNPaperComponent.ActivityIndicatorComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'ActivityIndicator',
+                headerStyle: {
+                    backgroundColor: 'rgb(98,0,238)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        }, 
     },
     {
         initialRouteName: 'Menu'
