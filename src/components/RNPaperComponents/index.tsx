@@ -10,6 +10,7 @@ import CardComponent from "./CardComponent";
 import CheckboxComponent from "./CheckboxComponent";
 import ChipComponent from "./ChipComponent";
 import DataTableComponent from "./DataTableComponent";
+import DialogComponent from "./DialogComponent";
 
 export {
     RNPaperMenu,
@@ -23,5 +24,6 @@ export {
     CardComponent,
     CheckboxComponent,
     ChipComponent,
-    DataTableComponent
+    DataTableComponent,
+    DialogComponent
 };
