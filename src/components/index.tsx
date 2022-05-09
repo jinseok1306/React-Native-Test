@@ -1252,6 +1252,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         }, 
+        PaperCheckboxComponent: {screen: RNPaperComponent.CheckboxComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Checkbox',
+                headerStyle: {
+                    backgroundColor: 'rgb(98,0,238)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        }, 
     },
     {
         initialRouteName: 'Menu'

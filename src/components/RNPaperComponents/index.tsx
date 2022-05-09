@@ -7,6 +7,7 @@ import BannerComponent from "./BannerComponent";
 import BottomNavigationComponent from "./BottomNavigationComponent";
 import ButtonComponent from "./ButtonComponent";
 import CardComponent from "./CardComponent";
+import CheckboxComponent from "./CheckboxComponent";
 
 export {
     RNPaperMenu,
@@ -17,5 +18,6 @@ export {
     BannerComponent,
     BottomNavigationComponent,
     ButtonComponent,
-    CardComponent
+    CardComponent,
+    CheckboxComponent
 };
