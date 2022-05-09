@@ -1324,6 +1324,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         },
+        PaperFABComponent: {screen: RNPaperComponent.FABComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'FAB',
+                headerStyle: {
+                    backgroundColor: 'rgb(98,0,238)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        },
     },
     {
         initialRouteName: 'Menu'

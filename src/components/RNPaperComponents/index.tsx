@@ -13,6 +13,7 @@ import DataTableComponent from "./DataTableComponent";
 import DialogComponent from "./DialogComponent";
 import DividerComponent from "./DividerComponent";
 import DrawerComponent from "./DrawerComponent";
+import FABComponent from "./FABComponent";
 
 export {
     RNPaperMenu,
@@ -29,5 +30,6 @@ export {
     DataTableComponent,
     DialogComponent,
     DividerComponent,
-    DrawerComponent
+    DrawerComponent,
+    FABComponent
 };
