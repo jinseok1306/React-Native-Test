@@ -1396,6 +1396,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         },
+        PaperProgressBarComponent: {screen: RNPaperComponent.ProgressBarComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'ProgressBar',
+                headerStyle: {
+                    backgroundColor: 'rgb(98,0,238)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        },
     },
     {
         initialRouteName: 'Menu'

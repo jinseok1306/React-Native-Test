@@ -19,6 +19,7 @@ import IconButtonComponent from "./IconButtonComponent";
 import ListComponent from "./ListComponent";
 import MenuItemComponent from "./MenuItemComponent";
 import ModalComponent from "./ModalComponent";
+import ProgressBarComponent from "./ProgressBarComponent";
 
 export {
     RNPaperMenu,
@@ -41,5 +42,6 @@ export {
     IconButtonComponent,
     ListComponent,
     MenuItemComponent,
-    ModalComponent
+    ModalComponent,
+    ProgressBarComponent
 };
