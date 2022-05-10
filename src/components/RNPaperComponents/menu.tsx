@@ -275,6 +275,20 @@ const RNPaperMenu = () => {
                             info: 'information',                            
                         })}
                     /> 
+                    <Button
+                        title={'Modal'}
+                        buttonStyle={{ backgroundColor: 'rgb(98,0,238)' }}
+                        containerStyle={{
+                            width: 250,
+                            marginHorizontal: 50,
+                            marginVertical: 10,
+                            borderRadius: 10,                            
+                        }}
+                        onPress={()=> NavigationService.navigate('PaperModalComponent', {
+                            screen: 'PaperModalComponent',
+                            info: 'information',                            
+                        })}
+                    /> 
                 </View>                                                                                                                                                                          
             </ScrollView>            
         </View>
