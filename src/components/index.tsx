@@ -1408,6 +1408,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         },
+        PaperRadioButtonComponent: {screen: RNPaperComponent.RadioButtonComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'RadioButton',
+                headerStyle: {
+                    backgroundColor: 'rgb(98,0,238)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        },
     },
     {
         initialRouteName: 'Menu'
