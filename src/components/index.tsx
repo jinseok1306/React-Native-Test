@@ -1432,6 +1432,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         },
+        PaperSnackbarComponent: {screen: RNPaperComponent.SnackbarComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'Snackbar',
+                headerStyle: {
+                    backgroundColor: 'rgb(98,0,238)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        },
     },
     {
         initialRouteName: 'Menu'

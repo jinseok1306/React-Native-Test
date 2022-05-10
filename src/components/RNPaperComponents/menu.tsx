@@ -331,6 +331,20 @@ const RNPaperMenu = () => {
                             info: 'information',                            
                         })}
                     /> 
+                    <Button
+                        title={'Snackbar'}
+                        buttonStyle={{ backgroundColor: 'rgb(98,0,238)' }}
+                        containerStyle={{
+                            width: 250,
+                            marginHorizontal: 50,
+                            marginVertical: 10,
+                            borderRadius: 10,                            
+                        }}
+                        onPress={()=> NavigationService.navigate('PaperSnackbarComponent', {
+                            screen: 'PaperSnackbarComponent',
+                            info: 'information',                            
+                        })}
+                    /> 
                 </View>                                                                                                                                                                          
             </ScrollView>            
         </View>

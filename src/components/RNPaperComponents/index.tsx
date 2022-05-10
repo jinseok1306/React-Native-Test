@@ -22,6 +22,7 @@ import ModalComponent from "./ModalComponent";
 import ProgressBarComponent from "./ProgressBarComponent";
 import RadioButtonComponent from "./RadioButtonComponent";
 import SearchbarComponent from "./SearchbarComponent";
+import SnackbarComponent from "./SnackbarComponent";
 
 export {
     RNPaperMenu,
@@ -47,5 +48,6 @@ export {
     ModalComponent,
     ProgressBarComponent,
     RadioButtonComponent,
-    SearchbarComponent
+    SearchbarComponent,
+    SnackbarComponent
 };
