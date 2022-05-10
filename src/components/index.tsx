@@ -1492,6 +1492,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         },
+        PaperTouchableRippleComponent: {screen: RNPaperComponent.TouchableRippleComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'TouchableRipple',
+                headerStyle: {
+                    backgroundColor: 'rgb(98,0,238)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        },
     },
     {
         initialRouteName: 'Menu'

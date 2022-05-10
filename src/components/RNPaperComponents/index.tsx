@@ -27,6 +27,7 @@ import SurfaceComponent from "./SurfaceComponent";
 import SwitchComponent from "./SwitchComponent";
 import TextInputComponent from "./TextInputComponent";
 import ToggleButtonComponent from "./ToggleButtonComponent";
+import TouchableRippleComponent from "./TouchableRippleComponent";
 
 export {
     RNPaperMenu,
@@ -57,5 +58,6 @@ export {
     SurfaceComponent,
     SwitchComponent,
     TextInputComponent,
-    ToggleButtonComponent
+    ToggleButtonComponent,
+    TouchableRippleComponent
 };
