@@ -25,6 +25,7 @@ import SearchbarComponent from "./SearchbarComponent";
 import SnackbarComponent from "./SnackbarComponent";
 import SurfaceComponent from "./SurfaceComponent";
 import SwitchComponent from "./SwitchComponent";
+import TextInputComponent from "./TextInputComponent";
 
 export {
     RNPaperMenu,
@@ -53,5 +54,6 @@ export {
     SearchbarComponent,
     SnackbarComponent,
     SurfaceComponent,
-    SwitchComponent
+    SwitchComponent,
+    TextInputComponent
 };
