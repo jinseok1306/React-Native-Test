@@ -23,6 +23,7 @@ import ProgressBarComponent from "./ProgressBarComponent";
 import RadioButtonComponent from "./RadioButtonComponent";
 import SearchbarComponent from "./SearchbarComponent";
 import SnackbarComponent from "./SnackbarComponent";
+import SurfaceComponent from "./SurfaceComponent";
 
 export {
     RNPaperMenu,
@@ -49,5 +50,6 @@ export {
     ProgressBarComponent,
     RadioButtonComponent,
     SearchbarComponent,
-    SnackbarComponent
+    SnackbarComponent,
+    SurfaceComponent
 };
