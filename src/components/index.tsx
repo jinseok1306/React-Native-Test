@@ -1480,6 +1480,18 @@ const AuthStack = createStackNavigator(
                 },
             }),
         },
+        PaperToggleButtonComponent: {screen: RNPaperComponent.ToggleButtonComponent,
+            navigationOptions: ({ navigation }) => ({
+                title: 'ToggleButton',
+                headerStyle: {
+                    backgroundColor: 'rgb(98,0,238)',                        
+                },              
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                    fontWeight: 'bold',
+                },
+            }),
+        },
     },
     {
         initialRouteName: 'Menu'
