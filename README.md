@@ -145,5 +145,5 @@ URL 링크를 사용하는 방법으로 주로 GitHub에서 가져올 때 사용
 <img src="/scan/DevMenu.png"  width="300" >  <img src="/scan/Developer Tool.png"  width="700" >  
 
 ## 실행화면
-<img src="/scan/메인화면.png"  width="250" >  <img src="/scan/Native Base 테스트.png"  width="250" >  <img src="/scan/Map List 테스트.png"  width="250" >  <img src="/scan/React Native Elements 테스트.png"  width="250" >  <img src="/scan/React Native Paper테스트.png"  width="250" >  <img src="/scan/React 기본 테스트.png"  width="250" > <img src="/scan/Redux테스트.png"  width="250" >  <img src="/scan/SQLite 테스트.png"  width="250" >
+<img src="/scan/메인화면.png"  width="240" >  <img src="/scan/Native Base 테스트.png"  width="240" >  <img src="/scan/Map List 테스트.png"  width="240" >  <img src="/scan/React Native Elements 테스트.png"  width="240" >  <img src="/scan/React Native Paper테스트.png"  width="240" >  <img src="/scan/React 기본 테스트.png"  width="240" > <img src="/scan/Redux테스트.png"  width="240" >  <img src="/scan/SQLite 테스트.png"  width="240" >
 
