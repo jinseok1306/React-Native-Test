@@ -24,8 +24,10 @@ React Native는 ios 와 Android에서 동작하는 네이티브 모바일 앱을
 
 ## 개발 환경 구축하기 (Windows OS)
 ### 1. Node.js 설치하기
+[https://nodejs.org/ko/](https://nodejs.org/ko/) 사이트 접속 후 Node.js  LTS 설치파일 다운 후 설치를 진행한다.  
 
-[https://nodejs.org/ko/](https://nodejs.org/ko/) 사이트 접속 후 Node.js  LTS 설치파일 다운 후 설치를 진행한다.
+<img src="/scan/Node설치.png"  width="700" height="370">
+
 
 ### 2. 자바 JDK 설치
 [Java VS Code 설치방법(Window)](https://www.notion.so/626bfc93780b48318769851dbbe7fba2)를 참고하여  15버전 설치를 진행한다. (17버전 호환안됨)
