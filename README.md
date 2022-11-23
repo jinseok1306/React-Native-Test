@@ -1,7 +1,8 @@
 # React-Native-Test
 React Native를 공부하며 필수 기능들을 테스트한 App입니다. 공부하며 정리한 개념 및 사용법을 정리합니다.
- 
-   
+  
+  
+  
 ## React Native 개념과 특징
 ### 1. React Native란?
 
@@ -20,3 +21,27 @@ React Native는 ios 와 Android에서 동작하는 네이티브 모바일 앱을
 
 - 추가적인 레이어가 있기에 디버깅이 간단하지 않다.
 - 대상 플랫폼의 새로운 버전이 공개되었을 때 React Native가 이를 모두 지원하는데 까지 시간이 걸린다.
+  
+  
+  
+## Template 적용하기
+### npm
+
+npm에 등록된 템플릿을 사용하는 방법이다.  npm에 등록된 package는 [https://www.npmjs.com/search?q=react native template](https://www.npmjs.com/search?q=react%20native%20template) 를 참고하면 된다.
+
+```powershell
+npx react-native init 프로젝트명 --template 템플릿명
+```
+
+### file
+
+로컬경로에 저장된 템플릿을 사용하는 방법이다.
+
+```powershell
+npx react-native init 프로젝트명 --template 
+file://템플릿 경로
+```
+
+### URL
+
+URL 링크를 사용하는 방법으로 주로 GitHub에서 가져올 때 사용한다.
