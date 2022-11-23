@@ -26,7 +26,7 @@ React Native는 ios 와 Android에서 동작하는 네이티브 모바일 앱을
 ### 1. Node.js 설치하기
 [https://nodejs.org/ko/](https://nodejs.org/ko/) 사이트 접속 후 Node.js  LTS 설치파일 다운 후 설치를 진행한다.  
 
-<img src="/scan/Node설치.png"  width="700" height="370">
+<img src="/scan/Node설치.png"  width="700">
 
 
 ### 2. 자바 JDK 설치
@@ -35,7 +35,7 @@ React Native는 ios 와 Android에서 동작하는 네이티브 모바일 앱을
 ### 3. React Native 설치하기
 명령 프롬프트 실행 후 `npm install -g react-native-cli`  입력  
 
-<img src="/scan/React Native 설치 캡쳐.png" width="600" height="300">
+<img src="/scan/React Native 설치 캡쳐.png" width="600">
 
 ### 4. Android Studio 설치하기
 Android를 개발하기 위해서는 Android Studio, ios 개발을 위해서는 Xcode가 필요하다.(Xcode는 Mac에서만 설치 가능)  
@@ -46,33 +46,33 @@ Android Studio은 [https://developer.android.com/studio](https://developer.andro
 ### 5. 에뮬레이터 생성하기
 Android 설치 후 메인화면 More Actions → Virtual Device Manager → Create Device → 필요한 스펙에 맞게 생성  
 
-<img src="/scan/에뮬레이터 생성.png"  width="700" height="500">
+<img src="/scan/에뮬레이터 생성.png"  width="700">
 
 ### 6. Android SDK 설정하기
 메인 화면 Move Actions → SDK Manager → SDK Platforms 탭에서 Show Package Details 체크 후 아래와 같이 설치(사용하는 버전 체크할 것)
 - `Android SDK Platform 29`
 - `Intel x86 Atom_64 System Image` or `Google APIs Intel x86 Atom System Image`  
 
-<img src="/scan/SDK 설정.png"  width="700" height="500">
+<img src="/scan/SDK 설정.png"  width="700" >
 
 ### 7. Android 환경변수 설정
 1\) 시스템 환경 변수 편집 → 환경변수 → 시스템 변수 새로만들기 클릭 후
 - 변수 이름 : ANDROID_HOME
 - 변수 값 : 안드로이드 sdk 설치 경로  
 
-<img src="/scan/환경변수 설정.png"  width="700" height="150">
+<img src="/scan/환경변수 설정.png"  width="700">
 
 2\) 시스템 변수 → Path 선택 후 편집 → platform-tools 경로 추가
 예시) C:\Users\Jinseok\AppData\Local\Android\Sdk\platform-tools  
 
-<img src="/scan/환경변수 경로.png"  width="700" height="300">
+<img src="/scan/환경변수 경로.png"  width="700">
 
 ### 8. 프로젝트 생성하기
 1\) VS Code 실행 → Terminal → New Terminal 실행  
 
 2\) `npm i -g react-native-cli` 실행  
 
-<img src="/scan/프로젝트 생성.png"  >
+<img src="/scan/프로젝트 생성.png"  width="700" >
 
 3\) 프로젝트 생성  
 (기본) `npx react-native init 프로젝트명`  
@@ -80,7 +80,7 @@ Android 설치 후 메인화면 More Actions → Virtual Device Manager → Crea
 타입 스크립트를 사용하기 위해서는 최초 한번 설치를 진행해야 된다. (`npm install -g typescript`로 설치)  
 프로젝트 생성 시 npm 오류가 발생한다면 C:\Users\사용자명\AppData\Local\npm-cache  파일을 삭제 후 다시 진행한다.  
 
-<img src="/scan/프로젝트 생성2.png"  >
+<img src="/scan/프로젝트 생성2.png" width="700" >
 
 ### 9. React native App 실행하기  
 1\) 프로젝트 폴더로 이동(File → Open Folder → 생성한 프로젝트 폴더 선택)  
@@ -88,12 +88,12 @@ Android 설치 후 메인화면 More Actions → Virtual Device Manager → Crea
 2\) `npx react-native start` 실행  
 (만약에 에뮬이 실행되지 않는다면 Android Studio에서 프로젝트 실행 후 생성한 에뮬 실행)  
 
-<img src="/scan/React Native 실행.png"  >
+<img src="/scan/React Native 실행.png"  width="700">
 
 3\) 터미널 창을 하나 더 생성하여 `npx react-native run-android` 실행  
 (이 명령어를 먼저 입력하면 자동으로 `npx react-native start` 구문이 처리되기에 이전단계를 생략하고 이 구문만 입력해도 됨)  
 
-<img src="/scan/npx react native.png"  >
+<img src="/scan/npx react native.png"  width="700" >
 
 ## Template 적용하기
 ### npm
@@ -115,4 +115,32 @@ file://템플릿 경로
 
 ### URL
 
-URL 링크를 사용하는 방법으로 주로 GitHub에서 가져올 때 사용한다.
+URL 링크를 사용하는 방법으로 주로 GitHub에서 가져올 때 사용한다.  
+
+## Debugging
+### 1. React Native Tools으로 디버깅  
+1\) Extension에서 React Native Tools을 설치한다.  
+
+<img src="/scan/React Native Tool.png"  width="800">
+
+2\) 디버깅 탭에서 create a launch.json file 을 클릭하고 VS Code Extension Development 선택  
+
+3\) 디버깅 항목을 선택할 때는 React → 개발에 필요한 항목을 선택한다.  
+(만약에 처음부터 아래와 같이 나오지 않는다면 launch.json 파일에서 Add Configuration 클릭 후 원하는 Debug를 세팅해야 된다.  
+
+<img src="/scan/Debug1.png"  width="300">  <img src="/scan/Debug2.png"  width="500" >
+
+4\) F5 버튼을 누르면 디버깅을 진행할 수 있다. (모바일 화면에서 Ctrl + M 클릭 후 Reload를 사용하면 화면이 초기화되기에 디버깅 테스트하기에 유용함)  
+
+<img src="/scan/Debugging.png"  width="500" >
+
+### 2. Chrome Developer Tools(Element Inspector 용도)
+에뮬에서 `Ctrl` + `M` 후 최초로 실행되는 Chrome Tab에서 F12 또는 `Ctrl` + `Shift` + `J` 클릭하면 개발자 도구를 이용할 수 있다.  
+
+### 3. React Developer Tools (Element Inspector 용도)  
+1\) 터미널에서 `npm install -g react-devtools` 를 입력하여 React Developer Tools을 설치한다.  
+
+2\) `react-devtools` 를 실행하면 아래와 같이 개발툴이 실행된다. 프로그램와 에뮬 연결은 에뮬에서 `Ctrl` + `M` 클릭하면 자동으로 연결된다.  
+
+<img src="/scan/DevMenu.png"  width="300" >  <img src="/scan/Developer Tool.png"  width="700" >
+
