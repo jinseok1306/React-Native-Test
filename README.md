@@ -70,7 +70,7 @@ Android 설치 후 메인화면 More Actions → Virtual Device Manager → Crea
 ### 8. 프로젝트 생성하기
 1\) VS Code 실행 → Terminal → New Terminal 실행  
 
-2\) `npm i -g react-native`, `npm i -g react-native-cli` 실행  
+2\) `npm i -g react-native-cli`, `npm i -g react-native` 실행  
 
 <img src="/scan/프로젝트 생성.png"  width="700" >
 
